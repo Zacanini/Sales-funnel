@@ -45,8 +45,6 @@ C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funne
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Win32.Registry.ozmyxl3pzt.wasm
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\mscorlib.vt9pwshhot.wasm
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\netstandard.or41gtprh3.wasm
-C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Sales-funnel.3fwsr0lei9.pdb
-C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Sales-funnel.f6aeam0jln.wasm
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.AppContext.69xw87cqtg.wasm
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.Buffers.m3enj6d62j.wasm
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.Collections.Concurrent.7xcnvnvfe7.wasm
@@ -267,7 +265,6 @@ C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funne
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.Diagnostics.TraceSource.qvejter5tv.wasm.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.Resources.Reader.6dewscbl2z.wasm.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.Windows.pxvni61c5f.wasm.gz
-C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Sales-funnel.3fwsr0lei9.pdb.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.Threading.Tasks.Parallel.pia6qfjdvy.wasm.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.IO.Compression.r2vc7bedoc.wasm.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.0i562wdyma.wasm.gz
@@ -384,7 +381,6 @@ C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funne
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.IO.MemoryMappedFiles.2kvmbxu1mj.wasm.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.ul9zb0sw6s.wasm.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.Runtime.Serialization.Xml.u3xtkxm1k9.wasm.gz
-C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Sales-funnel.f6aeam0jln.wasm.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.ved8dbz2is.wasm.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.Collections.k7eocx66k5.wasm.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\System.Security.SecureString.c87gsi9tp6.wasm.gz
@@ -1068,9 +1064,6 @@ C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funne
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\l655yuqm2u-tjcz0u77k5.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\4ltxs4ly2p-tptq2av103.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\p5z3c620t3-lfu7j35m59.gz
-C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\tkgi3m8vdz-f6aeam0jln.gz
-C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\9n5kg6xhc8-3fwsr0lei9.gz
-C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\abwyq72lfm-xbvlzvv512.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\staticwebassets.development.json
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -1085,4 +1078,11 @@ C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funne
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\refint\Sales-funnel.dll
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\Sales-funnel.pdb
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\ref\Sales-funnel.dll
-C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\m7ij9oe1hp-l45vxr94th.gz
+C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Sales-funnel.uxxq1h1de7.pdb
+C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Sales-funnel.4letz8va33.wasm
+C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Sales-funnel.uxxq1h1de7.pdb.gz
+C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\bin\Debug\net9.0\wwwroot\_framework\Sales-funnel.4letz8va33.wasm.gz
+C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\m7ij9oe1hp-y6rmernibc.gz
+C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\tkgi3m8vdz-4letz8va33.gz
+C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\9n5kg6xhc8-uxxq1h1de7.gz
+C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\abwyq72lfm-4bxvgs4v5b.gz

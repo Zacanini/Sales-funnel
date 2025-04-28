@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Sales-funnel",
   "resources": {
-    "hash": "sha256-8OUq8e3wergQVYl0chxhl1ZwhblAwcM1V36L7WBnl/Q=",
+    "hash": "sha256-ZYdWv1JVc/Ock1NJp0q7kirU5cfz4EqWwMUsL0nk3gk=",
     "fingerprinting": {
       "Microsoft.AspNetCore.Authorization.da83xzpz5r.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.vmzb2angnn.wasm": "Microsoft.AspNetCore.Components.wasm",
@@ -201,8 +201,8 @@
       "icudt_CJK.tjcz0u77k5.dat": "icudt_CJK.dat",
       "icudt_EFIGS.tptq2av103.dat": "icudt_EFIGS.dat",
       "icudt_no_CJK.lfu7j35m59.dat": "icudt_no_CJK.dat",
-      "Sales-funnel.f6aeam0jln.wasm": "Sales-funnel.wasm",
-      "Sales-funnel.3fwsr0lei9.pdb": "Sales-funnel.pdb"
+      "Sales-funnel.4letz8va33.wasm": "Sales-funnel.wasm",
+      "Sales-funnel.uxxq1h1de7.pdb": "Sales-funnel.pdb"
     },
     "jsModuleNative": {
       "dotnet.native.1p93gcv9fh.js": "sha256-1UPiprzN3JhPftx3be7XEMaYlUN+chRF41CuttiWVtQ="
@@ -412,10 +412,10 @@
       "WindowsBase.ag32297siy.wasm": "sha256-BgyZxTgdU9rIYlNC9ZMiMjnvBAJSL0eQH8Y87o1M+q4=",
       "mscorlib.vt9pwshhot.wasm": "sha256-/aFxOaPc1iTNlJw0z4/RGEMD0nzl4qVE3SF4wMsLgp0=",
       "netstandard.or41gtprh3.wasm": "sha256-nD1KqAI5YYz+YohqHaZ5EmXi7Eq9Uy9sUknnI8sj1AM=",
-      "Sales-funnel.f6aeam0jln.wasm": "sha256-+bL71pGf5qvqSKZy+lYI/1I5uU8z+4iZTGBDUoidlxE="
+      "Sales-funnel.4letz8va33.wasm": "sha256-GILr5eAgisBgJoeh1HW+G9yuv3DHnKGOiRuKJ3VYr1k="
     },
     "pdb": {
-      "Sales-funnel.3fwsr0lei9.pdb": "sha256-4aH9BMsCgiWBCtGqtYuDr21Ayx0G9Z4bOf40g7ghHoA="
+      "Sales-funnel.uxxq1h1de7.pdb": "sha256-UgOEX2UPF9MuCGmrNmgupLttw7nUufCu/pkcB5jBKzc="
     }
   },
   "cacheBootResources": true,
