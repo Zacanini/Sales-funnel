@@ -2,32 +2,14 @@ Sales-funnel/
 ├─ bin/
 │  └─ Debug/
 │     └─ net9.0/
-├─ Layout/
-│  ├─ MainLayout.razor
-│  ├─ MainLayout.razor.css
-│  ├─ NavMenu.razor
-│  └─ NavMenu.razor.css
 ├─ obj/
 │  ├─ Debug/
 │  │  └─ net9.0/
-│  │     ├─ ref/
-│  │     ├─ refint/
-│  │     ├─ .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
-│  │     ├─ Sales-funnel.AssemblyInfo.cs
-│  │     ├─ Sales-funnel.AssemblyInfoInputs.cache
-│  │     ├─ Sales-funnel.assets.cache
-│  │     ├─ Sales-funnel.csproj.AssemblyReference.cache
-│  │     ├─ Sales-funnel.GeneratedMSBuildEditorConfig.editorconfig
-│  │     └─ Sales-funnel.GlobalUsings.g.cs
-│  ├─ project.assets.json
-│  ├─ project.nuget.cache
-│  ├─ Sales-funnel.csproj.nuget.dgspec.json
-│  ├─ Sales-funnel.csproj.nuget.g.props
-│  └─ Sales-funnel.csproj.nuget.g.targets
 ├─ Pages/
-│  ├─ Counter.razor
-│  ├─ Home.razor
-│  └─ Weather.razor
+│  ├─ ConteudoEngajamento.razor
+│  ├─ FormularioCadastro.razor
+│  ├─ LandingPage.razor
+│  └─ PaginaOferta.razor
 ├─ Properties/
 │  └─ launchSettings.json
 ├─ wwwroot/

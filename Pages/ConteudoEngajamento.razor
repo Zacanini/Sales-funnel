@@ -1,0 +1,25 @@
+﻿@page "/conteudoengajamento"
+@inject NavigationManager Navigation
+
+<div class="flex flex-col items-center justify-center min-h-screen bg-yellow-100 p-8">
+    <h1 class="text-3xl font-bold mb-6">Aprenda mais com nossos conteúdos!</h1>
+    
+    <div class="bg-white p-6 rounded shadow-md w-full max-w-2xl mb-6">
+        <p class="mb-4">✔️ Dicas incríveis para transformar seus resultados!</p>
+        <p class="mb-4">✔️ Histórias de sucesso de nossos clientes.</p>
+        <p class="mb-4">✔️ Benefícios exclusivos para inscritos.</p>
+    </div>
+
+    <button 
+        class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
+        @onclick="IrParaOferta">
+        Veja nossa oferta especial
+    </button>
+</div>
+
+@code {
+    private void IrParaOferta()
+    {
+        Navigation.NavigateTo("/paginaoferta");
+    }
+}

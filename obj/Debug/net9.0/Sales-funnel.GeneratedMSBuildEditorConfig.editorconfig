@@ -28,16 +28,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/ConteudoEngajamento.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGV1ZG9FbmdhamFtZW50by5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
+[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/FormularioCadastro.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXVsYXJpb0NhZGFzdHJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
+[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/LandingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZGluZ1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/PaginaOferta.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hT2ZlcnRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/_Imports.razor]

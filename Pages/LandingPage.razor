@@ -1,0 +1,19 @@
+﻿@page "/"
+@inject NavigationManager Navigation
+
+<div class="flex flex-col items-center justify-center min-h-screen bg-blue-100 p-8">
+    <h1 class="text-4xl font-bold mb-6">Bem-vindo ao nosso Produto!</h1>
+    <p class="text-lg mb-6">Descubra como podemos transformar sua vida.</p>
+    <button 
+        class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        @onclick="IrParaFormulario">
+        Quero saber mais!
+    </button>
+</div>
+
+@code {
+    private void IrParaFormulario()
+    {
+        Navigation.NavigateTo("/formulariocadastro");
+    }
+}
