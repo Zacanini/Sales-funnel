@@ -1,0 +1,33 @@
+@namespace Sales_funnel.Components.ConteudoEngajamento
+@using Sales_funnel.Components.UI
+
+<div class="relative py-8 my-8">
+    
+    <!-- Conteúdo central -->
+    <div class="relative flex flex-col items-center z-10">
+        <!-- Ícone em círculo -->
+        <div class="bg-gradient-to-br from-white to-blue-50 rounded-full p-3 shadow-md border border-blue-100 mb-3">
+            <div class="bg-gradient-to-r from-blue-500 to-purple-600 text-white rounded-full p-2 w-10 h-10 flex items-center justify-center">
+                @((MarkupString)Icon)
+            </div>
+        </div>
+        
+        <!-- Título e subtítulo -->
+        <h2 class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">@Title</h2>
+        @if (!string.IsNullOrEmpty(Subtitle))
+        {
+            <p class="text-sm text-gray-500 mt-1 max-w-md text-center">@Subtitle</p>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "";
+    
+    [Parameter]
+    public string Subtitle { get; set; } = "";
+    
+    [Parameter]
+    public string Icon { get; set; } = "<svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z' /></svg>";
+}

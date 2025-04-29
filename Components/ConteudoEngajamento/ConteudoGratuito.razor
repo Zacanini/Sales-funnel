@@ -1,0 +1,184 @@
+@namespace Sales_funnel.Components.ConteudoEngajamento
+@using Sales_funnel.Components.UI
+
+<div class="mb-10">
+    <div class="text-center mb-12">
+        
+        <h2 class="text-3xl md:text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">Conteúdos selecionados para você</h2>
+        <p class="text-lg text-gray-700 max-w-2xl mx-auto leading-relaxed">
+            Explore os recursos abaixo para aumentar seu conhecimento sobre PWAs
+            e prepare-se para desenvolver aplicações web modernas e de alto desempenho.
+        </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        @foreach (var conteudo in Conteudos)
+        {
+            <div class="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 border border-gray-100">
+                <div class="relative overflow-hidden h-48">
+                    <img src="@conteudo.ImagemUrl" alt="@conteudo.Titulo" class="w-full h-full object-cover transition-transform duration-700 ease-in-out transform group-hover:scale-105" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-70"></div>
+                    
+                    <!-- Tag de categoria com gradiente personalizado -->
+                    <div class="absolute top-3 right-3">
+                        <span class="bg-@(conteudo.CategoriaCor)-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">
+                            @conteudo.Categoria
+                        </span>
+                    </div>
+                    
+                    -- Ícone de status (novo/popular) --
+                    @if (conteudo.IsNovo)
+                    {
+                        <div class="absolute top-3 left-3">
+                            <span class="bg-red-500 text-white text-xs font-bold px-3 py-1 rounded-full flex items-center shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z" clip-rule="evenodd" />
+                                </svg>
+                                NOVO
+                            </span>
+                        </div>
+                    }
+                    @if (conteudo.IsPopular)
+                    {
+                        <div class="absolute top-3 left-3">
+                            <span class="bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full flex items-center shadow-sm">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-3 w-3 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                </svg>
+                                POPULAR
+                            </span>
+                        </div>
+                    }
+                </div>
+
+                <div class="p-6">
+                    <h3 class="font-bold text-xl mb-3 text-gray-800 group-hover:text-blue-600 transition-colors">@conteudo.Titulo</h3>
+                    <p class="text-gray-600 mb-5 text-sm line-clamp-3">@conteudo.Descricao</p>
+
+                    <div class="flex items-center justify-between mt-auto pt-4 border-t border-gray-100">
+                        <div class="flex items-center text-gray-500 text-sm">
+                            <div class="flex items-center bg-blue-50 text-blue-600 px-2 py-1 rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd" />
+                                </svg>
+                                @conteudo.Duracao min
+                            </div>
+                        </div>
+                        <Button Variant="@(conteudo.IsLocked ? "outline" : "primary")" Size="sm" OnClick="@(() => AcessarConteudo(conteudo))" 
+                               Class="@(conteudo.IsLocked ? "border-2 border-gray-300 hover:bg-gray-50" : "bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 shadow-sm")">
+                            @if (conteudo.IsLocked)
+                            {
+                                <span class="flex items-center">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 mr-1.5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+                                    </svg>
+                                    Desbloquear
+                                </span>
+                            }
+                            else
+                            {
+                                <span class="flex items-center">
+                                    Acessar
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-1.5" viewBox="0 0 20 20" fill="currentColor">
+                                        <path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </span>
+                            }
+                        </Button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback<ConteudoItem> OnConteudoClick { get; set; }
+    
+    private List<ConteudoItem> Conteudos = new List<ConteudoItem>
+    {
+        new ConteudoItem
+        {
+            Titulo = "Fundamentos de PWA: O que você precisa saber",
+            Descricao = "Aprenda os conceitos básicos que transformam um site comum em uma aplicação web progressiva. Descubra como funciona e por que as PWAs estão revolucionando o desenvolvimento web.",
+            ImagemUrl = "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=640&auto=format&fit=crop",
+            Categoria = "Tutorial",
+            CategoriaCor = "blue",
+            Duracao = 15,
+            IsLocked = false,
+            IsNovo = true
+        },
+        new ConteudoItem
+        {
+            Titulo = "Service Workers: O coração das PWAs",
+            Descricao = "Entenda como os service workers funcionam e como implementá-los em seu projeto para habilitar recursos offline e melhorar significativamente o desempenho.",
+            ImagemUrl = "https://images.unsplash.com/photo-1607706189992-eae578626c86?q=80&w=640&auto=format&fit=crop",
+            Categoria = "Técnico",
+            CategoriaCor = "green",
+            Duracao = 20,
+            IsLocked = false,
+            IsPopular = true
+        },
+        new ConteudoItem
+        {
+            Titulo = "Web App Manifest: Configure sua PWA",
+            Descricao = "Aprenda a criar e configurar o manifest.json para tornar sua aplicação instalável em dispositivos móveis e desktops, oferecendo uma experiência semelhante a aplicativos nativos.",
+            ImagemUrl = "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=640&auto=format&fit=crop",
+            Categoria = "Tutorial",
+            CategoriaCor = "blue",
+            Duracao = 12,
+            IsLocked = false
+        },
+        new ConteudoItem
+        {
+            Titulo = "Estratégias de Cache para PWAs Offline",
+            Descricao = "Conheça as melhores práticas para implementar cache e oferecer experiência offline aos usuários. Aprenda a gerenciar recursos para garantir que sua PWA funcione sem internet.",
+            ImagemUrl = "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?q=80&w=640&auto=format&fit=crop",
+            Categoria = "Avançado",
+            CategoriaCor = "purple",
+            Duracao = 25,
+            IsLocked = true
+        },
+        new ConteudoItem
+        {
+            Titulo = "Implementando Notificações Push",
+            Descricao = "Tutorial passo a passo para adicionar notificações push em sua PWA e reengajar usuários mesmo quando não estão utilizando ativamente sua aplicação.",
+            ImagemUrl = "https://images.unsplash.com/photo-1563206767-5b18f218e8de?q=80&w=640&auto=format&fit=crop",
+            Categoria = "Avançado",
+            CategoriaCor = "purple",
+            Duracao = 30,
+            IsLocked = true,
+            IsNovo = true
+        },
+        new ConteudoItem
+        {
+            Titulo = "PWA vs. Apps Nativas: Prós e Contras",
+            Descricao = "Uma análise comparativa para ajudar você a decidir qual abordagem é melhor para seu projeto. Conheça as vantagens e limitações de cada alternativa para fazer a escolha certa.",
+            ImagemUrl = "https://images.unsplash.com/photo-1616469829581-73993eb86b02?q=80&w=640&auto=format&fit=crop",
+            Categoria = "Artigo",
+            CategoriaCor = "yellow",
+            Duracao = 8,
+            IsLocked = false,
+            IsPopular = true
+        }
+    };
+
+    private async Task AcessarConteudo(ConteudoItem conteudo)
+    {
+        await OnConteudoClick.InvokeAsync(conteudo);
+    }
+
+    public class ConteudoItem
+    {
+        public string Titulo { get; set; } = "";
+        public string Descricao { get; set; } = "";
+        public string ImagemUrl { get; set; } = "";
+        public string Categoria { get; set; } = "";
+        public string CategoriaCor { get; set; } = "blue";
+        public int Duracao { get; set; } = 10;
+        public bool IsLocked { get; set; } = false;
+        public bool IsNovo { get; set; } = false;
+        public bool IsPopular { get; set; } = false;
+    }
+}

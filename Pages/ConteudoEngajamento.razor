@@ -1,3 +1,112 @@
 ﻿@page "/conteudo-engajamento"
+@using Sales_funnel.Components.Global
+@using Sales_funnel.Components.ConteudoEngajamento
+@using Sales_funnel.Components.UI
+@inject NavigationManager NavigationManager
 
-<div> engajamento</div>
+<SEO 
+    Title="Conteúdo Exclusivo PWA Master" 
+    Description="Acesse conteúdos exclusivos sobre Progressive Web Apps e aprenda a desenvolver aplicações web modernas que funcionam offline."
+    Keywords="@(new[] { "PWA", "Progressive Web Apps", "Desenvolvimento Web", "Conteúdo Exclusivo", "Service Workers", "Offline" })"
+/>
+
+<!-- Fundo com textura e elementos decorativos aprimorados -->
+<div class="bg-gradient-to-b from-blue-50 via-white to-blue-50 min-h-screen relative">
+    <!-- Padrão de grid  no fundo -->
+    <div class="absolute inset-0 z-0 overflow-hidden">
+        <div class="absolute top-0 left-0 right-0 bottom-0">
+            <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <pattern id="grid-pattern" width="30" height="30" patternUnits="userSpaceOnUse">
+                        <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#6366f1" stroke-width="0.5" opacity="0.2" />
+                    </pattern>
+                    <pattern id="dots-pattern" width="20" height="20" patternUnits="userSpaceOnUse">
+                        <circle cx="2" cy="2" r="1" fill="#6366f1" opacity="0.2" />
+                    </pattern>
+                </defs>
+                <rect width="100%" height="100%" fill="url(#grid-pattern)" />
+                <rect width="100%" height="100%" fill="url(#dots-pattern)" />
+            </svg>
+        </div>
+        
+    </div>
+
+    
+
+    <section class="py-16 relative z-10">
+        <div class="container mx-auto px-4">
+            <div class="max-w-5xl mx-auto">
+                <ConteudoInicial />
+                
+                <ConteudoProgressBar />
+                
+               <ConteudoDivisor 
+                    Title="Conteúdo em destaque"
+                    Subtitle="Material selecionado especialmente para você"
+                    Icon="<svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z' /></svg>"
+                />
+                
+                <div class="mb-16">
+                    <ConteudoDestaque OnConteudoDestaqueClick="@(() => HandleTutorialClick())" />
+                </div>
+                
+                <ConteudoDivisor 
+                    Title="Materiais gratuitos"
+                    Subtitle="Conhecimento de qualidade para você começar agora mesmo"
+                    Icon="<svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253' /></svg>"
+                />
+                
+                <div class="mb-16">
+                    <ConteudoGratuito OnConteudoClick="@((conteudo) => HandleConteudoClick(conteudo))" />
+                </div>
+                
+                <ConteudoDivisor 
+                    Title="Conteúdos essenciais"
+                    Subtitle="Tópicos fundamentais para dominar o desenvolvimento de PWAs"
+                    Icon="<svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2' /></svg>"
+                />
+                
+                <div class="mb-16">
+                    <ConteudoLista OnItemClick="@((item) => HandleItemClick(item))" />
+                </div>
+                
+                <ConteudoDivisor 
+                    Title="Conteúdo premium"
+                    Subtitle="Desbloqueie todo o potencial do seu aprendizado"
+                    Icon="<svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z' /></svg>"
+                />
+                
+                <div class="mb-16">
+                    <ConteudoBonus OnVerPremiumClick="@(() => NavigationManager.NavigateTo("/pagina-oferta"))" />
+                </div>
+                
+                <div class="mb-16">
+                    <ConteudoCTA OnCTAClick="@(() => NavigationManager.NavigateTo("/pagina-oferta"))" />
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
+@code {
+    private void HandleTutorialClick()
+    {
+        // Em um ambiente real, aqui poderia exibir o tutorial completo
+        // ou abrir um modal com mais informações
+        Console.WriteLine("Tutorial em destaque clicado");
+    }
+    
+    private void HandleConteudoClick(object conteudo)
+    {
+        // Em um ambiente real, aqui poderia exibir o conteúdo selecionado
+        // ou abrir um modal com mais informações
+        Console.WriteLine("Conteúdo gratuito selecionado");
+    }
+    
+    private void HandleItemClick(object item)
+    {
+        // Em um ambiente real, aqui poderia exibir o item selecionado
+        // ou abrir um modal com mais informações
+        Console.WriteLine("Item de conteúdo selecionado");
+    }
+}
