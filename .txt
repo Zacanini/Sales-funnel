@@ -2,27 +2,74 @@ Sales-funnel/
 ├─ bin/
 │  └─ Debug/
 │     └─ net9.0/
+├─ Components/
+│  ├─ ConteudoEngajamento/
+│  │  ├─ ConteudoBonus.razor
+│  │  ├─ ConteudoCTA.razor
+│  │  ├─ ConteudoDestaque.razor
+│  │  ├─ ConteudoDivisor.razor
+│  │  ├─ ConteudoGratuito.razor
+│  │  ├─ ConteudoInicial.razor
+│  │  ├─ ConteudoLista.razor
+│  │  └─ ConteudoProgressBar.razor
+│  ├─ FormularioCadastro/
+│  │  ├─ Beneficios.razor
+│  │  ├─ Exclusivo.razor
+│  │  ├─ FormFields.razor
+│  │  ├─ FormHeader.razor
+│  │  ├─ PrivacyTerms.razor
+│  │  ├─ ProvaSocial.razor
+│  │  └─ SuccessMessage.razor
+│  ├─ global/
+│  │  ├─ Footer.razor
+│  │  ├─ Header.razor
+│  │  ├─ ProgressBar.razor
+│  │  └─ SEO.razor
+│  ├─ LandingPage/
+│  │  ├─ BenefitsList.razor
+│  │  ├─ CardAction.razor
+│  │  ├─ Diferenciais.razor
+│  │  ├─ Hero.razor
+│  │  └─ PreviewContent.razor
+│  ├─ PaginaOferta/
+│  │  ├─ ContentTable.razor
+│  │  ├─ PricingTable.razor
+│  │  ├─ ProductDetails.razor
+│  │  └─ Vantagens.razor
+│  └─ ui/
+│     ├─ Alert.razor
+│     ├─ Badge.razor
+│     ├─ Button.razor
+│     ├─ Card.razor
+│     ├─ InputField.razor
+│     └─ Testimonial.razor
+├─ Layout/
+│  ├─ MainLayout.razor
+│  └─ MainLayout.razor.css
 ├─ obj/
 │  ├─ Debug/
 │  │  └─ net9.0/
+│  │     ├─ compressed/
 ├─ Pages/
 │  ├─ ConteudoEngajamento.razor
 │  ├─ FormularioCadastro.razor
 │  ├─ LandingPage.razor
 │  └─ PaginaOferta.razor
 ├─ Properties/
+│  ├─ PaginaOferta-componentes/
 │  └─ launchSettings.json
 ├─ wwwroot/
 │  ├─ css/
 │  │  ├─ app.css
 │  │  ├─ input.css
 │  │  └─ output.css
-│  ├─ sample-data/
+│  ├─ lib/
 │  │  └─ weather.json
 │  ├─ favicon.png
 │  ├─ icon-192.png
 │  └─ index.html
 ├─ _Imports.razor
+├─ .txt
 ├─ App.razor
 ├─ package-lock.json
 ├─ package.json
