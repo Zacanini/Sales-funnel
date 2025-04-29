@@ -1,0 +1,133 @@
+@namespace Sales_funnel.Components.PaginaOferta
+@using Sales_funnel.Components.UI
+
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+    <div>
+        <Badge Variant="success" Size="sm" Class="mb-2">@ProductType</Badge>
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">@Title</h1>
+        <p class="text-lg text-gray-600 mb-6">@Description</p>
+        
+        <div class="flex items-center mb-6">
+            <div class="flex">
+                @for (int i = 0; i < 5; i++)
+                {
+                    <svg xmlns="http://www.w3.org/2000/svg" class="@(i < Rating ? "text-yellow-500" : "text-gray-300") w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                }
+            </div>
+            <span class="ml-2 text-gray-700 font-medium">@Rating.ToString("0.0")/5.0 (@ReviewCount avaliações)</span>
+        </div>
+        
+        <div class="space-y-4 mb-8">
+            @foreach (var item in HighlightedFeatures)
+            {
+                <div class="flex items-start">
+                    <div class="flex-shrink-0 mt-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                    </div>
+                    <p class="ml-3 text-gray-700">@item</p>
+                </div>
+            }
+        </div>
+        
+        @if (ShowCTA)
+        {
+            <div class="flex flex-col sm:flex-row gap-3">
+                <Button Variant="primary" Size="lg" OnClick="OnPurchaseClick" Class="sm:flex-1">
+                    @PurchaseButtonText
+                </Button>
+                
+                @if (!string.IsNullOrEmpty(SecondaryButtonText))
+                {
+                    <Button Variant="outline" Size="lg" OnClick="OnSecondaryClick">
+                        @SecondaryButtonText
+                    </Button>
+                }
+            </div>
+        }
+        
+        @if (!string.IsNullOrEmpty(GuaranteeText))
+        {
+            <div class="mt-4 flex items-center text-gray-600 text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500 mr-2" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                @GuaranteeText
+            </div>
+        }
+    </div>
+    
+    <div class="flex justify-center lg:justify-end">
+        <div class="relative max-w-md">
+            <img 
+                src="@ImageUrl" 
+                alt="@Title"
+                class="rounded-lg shadow-lg w-full h-auto"
+            />
+            
+            @if (ShowDiscountBadge && !string.IsNullOrEmpty(DiscountText))
+            {
+                <div class="absolute -top-4 -right-4 bg-red-500 text-white font-bold py-2 px-4 rounded-full transform rotate-12 shadow-lg">
+                    @DiscountText
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string ProductType { get; set; } = "E-book";
+    
+    [Parameter]
+    public string Title { get; set; } = "PWA Master: Domine o Desenvolvimento de Progressive Web Apps";
+    
+    [Parameter]
+    public string Description { get; set; } = "Um guia completo para desenvolvedores que querem criar aplicações web modernas, responsivas e que funcionam offline.";
+    
+    [Parameter]
+    public string ImageUrl { get; set; } = "https://via.placeholder.com/400x500";
+    
+    [Parameter]
+    public double Rating { get; set; } = 4.8;
+    
+    [Parameter]
+    public int ReviewCount { get; set; } = 243;
+    
+    [Parameter]
+    public List<string> HighlightedFeatures { get; set; } = new List<string>
+    {
+        "Mais de 200 páginas de conteúdo prático e atualizado",
+        "Exemplos de código reutilizáveis para seus projetos",
+        "Estratégias de cache e otimização de desempenho",
+        "Técnicas avançadas para notificações push",
+        "Implementação completa de offline-first"
+    };
+    
+    [Parameter]
+    public bool ShowCTA { get; set; } = true;
+    
+    [Parameter]
+    public string PurchaseButtonText { get; set; } = "Comprar agora";
+    
+    [Parameter]
+    public string SecondaryButtonText { get; set; } = "";
+    
+    [Parameter]
+    public string GuaranteeText { get; set; } = "Garantia de devolução do dinheiro em 30 dias";
+    
+    [Parameter]
+    public bool ShowDiscountBadge { get; set; } = true;
+    
+    [Parameter]
+    public string DiscountText { get; set; } = "30% OFF";
+    
+    [Parameter]
+    public EventCallback OnPurchaseClick { get; set; }
+    
+    [Parameter]
+    public EventCallback OnSecondaryClick { get; set; }
+}

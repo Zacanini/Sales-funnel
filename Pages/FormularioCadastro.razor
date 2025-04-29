@@ -1,30 +1,66 @@
-﻿@page "/formulariocadastro"
-@inject NavigationManager Navigation
+﻿@page "/formulario-cadastro"
+@using Sales_funnel.Components.Global
+@using Sales_funnel.Components.FormularioCadastro
+@using Sales_funnel.Components.UI
+@inject NavigationManager NavigationManager
 
-<div class="flex flex-col items-center justify-center min-h-screen bg-green-100 p-8">
-    <h1 class="text-3xl font-bold mb-6">Cadastre-se para receber novidades</h1>
+<SEO 
+    Title="Cadastro - PWA Master"
+    Description="Cadastre-se para receber conteúdos exclusivos sobre PWAs e tenha acesso ao e-book PWA Master." 
+/>
 
-    <div class="bg-white p-8 rounded shadow-md w-full max-w-md">
-        <div class="mb-4">
-            <input class="border rounded w-full py-2 px-3" placeholder="Nome" />
+<div class="bg-gradient-to-b from-blue-50 to-white py-16 min-h-screen">
+    <div class="container mx-auto px-4">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col lg:flex-row mt-12 gap-8">
+                <!-- Coluna do formulário -->
+                <div class="lg:w-3/5 bg-white rounded-2xl shadow-lg p-8 border border-gray-100 order-2 lg:order-1 transform hover:shadow-xl transition-shadow duration-300">
+                    @if (!isFormSubmitted)
+                    {
+                        <FormHeader Title="Comece sua jornada PWA agora"
+                            Description="Junte-se a mais de 500 desenvolvedores que já estão elevando suas carreiras. Faltam apenas 50 segundos para você ter acesso ao conteúdo exclusivo." />
+                        <FormFields OnFormSubmit="HandleFormSubmit" />
+                        <PrivacyTerms />
+                    }
+                    else
+                    {
+                        <SuccessMessage 
+                            Email="@submittedEmail"
+                            OnContinueClick="@(() => NavigationManager.NavigateTo("/conteudo-engajamento"))" 
+                        />
+                    }
+                </div>
+                <!-- Coluna de benefícios -->
+                <Beneficios />
+            </div>
         </div>
-        <div class="mb-4">
-            <input class="border rounded w-full py-2 px-3" placeholder="Email" type="email" />
-        </div>
-        <div class="mb-6">
-            <input class="border rounded w-full py-2 px-3" placeholder="Telefone" />
-        </div>
-        <button 
-            class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded w-full"
-            @onclick="IrParaConteudo">
-            Enviar
-        </button>
     </div>
 </div>
 
+
+
+@if (!isFormSubmitted)
+{
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <Exclusivo />
+            <ProvaSocial />
+        </div>
+    </section>
+}
+
 @code {
-    private void IrParaConteudo()
+    private bool isFormSubmitted = false;
+    private string submittedEmail = "";
+
+    private void HandleFormSubmit(Sales_funnel.Components.FormularioCadastro.FormFields.FormData data)
     {
-        Navigation.NavigateTo("/conteudoengajamento");
+        // Em um ambiente real, aqui seria feito o processamento do formulário
+        // como salvar em um banco de dados ou enviar para uma API
+
+        isFormSubmitted = true;
+        submittedEmail = data.Email;
     }
+
+
 }

@@ -11,4 +11,13 @@
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.3" PrivateAssets="all" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="componentes\" />
+    <Folder Include="componentes\ConteudoEngajamento-componentes\" />
+    <Folder Include="componentes\FormularioCadastro-componentes\" />
+    <Folder Include="componentes\LandingPage-componentes\" />
+    <Folder Include="componentes\PaginaOferta-componnetes\" />
+    <Folder Include="Properties\PaginaOferta-componentes\" />
+  </ItemGroup>
+
 </Project>

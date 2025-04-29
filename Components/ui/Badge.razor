@@ -1,0 +1,42 @@
+@namespace Sales_funnel.Components.UI
+
+<span class="@GetBadgeClasses()">
+    @ChildContent
+</span>
+
+@code {
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+    
+    [Parameter]
+    public string Variant { get; set; } = "default";
+    
+    [Parameter]
+    public string Size { get; set; } = "md";
+    
+    [Parameter]
+    public string Class { get; set; } = "";
+
+    private string GetBadgeClasses()
+    {
+        var variantClasses = Variant switch
+        {
+            "default" => "bg-blue-100 text-blue-500",
+            "success" => "bg-green-100 text-green-500",
+            "warning" => "bg-yellow-100 text-yellow-500",
+            "error" => "bg-red-100 text-red-500",
+            "info" => "bg-purple-100 text-purple-500",
+            _ => "bg-blue-100 text-blue-500"
+        };
+        
+        var sizeClasses = Size switch
+        {
+            "sm" => "text-xs px-2 py-0.5",
+            "md" => "text-sm px-2.5 py-0.5",
+            "lg" => "text-base px-3 py-1",
+            _ => "text-sm px-2.5 py-0.5"
+        };
+        
+        return $"inline-block rounded-full font-medium {variantClasses} {sizeClasses} {Class}";
+    }
+}

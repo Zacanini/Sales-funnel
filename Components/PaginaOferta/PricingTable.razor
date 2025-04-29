@@ -1,0 +1,96 @@
+@namespace Sales_funnel.Components.PaginaOferta
+@using Sales_funnel.Components.UI
+
+<div class="bg-white rounded-lg border border-gray-200 overflow-hidden shadow-sm">
+    <div class="p-5 border-b border-gray-200">
+        <div class="flex items-center justify-between mb-4">
+            <h3 class="text-xl font-bold">@Title</h3>
+            
+            @if (ShowDiscount && !string.IsNullOrEmpty(DiscountLabel))
+            {
+                <Badge Variant="error" Size="sm">@DiscountLabel</Badge>
+            }
+        </div>
+        
+        <div class="flex items-end mb-4">
+            @if (ShowDiscount && OriginalPrice > 0)
+            {
+                <span class="text-gray-400 line-through mr-2">R$ @OriginalPrice.ToString("F2")</span>
+            }
+            <span class="text-3xl font-bold">R$ @Price.ToString("F2")</span>
+        </div>
+        
+        @if (!string.IsNullOrEmpty(InstallmentInfo))
+        {
+            <p class="text-sm text-gray-600 mb-4">@InstallmentInfo</p>
+        }
+        
+        <div class="flex flex-col space-y-2">
+            @foreach (var feature in Features)
+            {
+                <div class="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-green-500" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                    </svg>
+                    <span class="ml-2 text-gray-700">@feature</span>
+                </div>
+            }
+        </div>
+    </div>
+    
+    <div class="p-5 bg-gray-50">
+        <Button 
+            Variant="@(IsFeatured ? "primary" : "outline")" 
+            Size="lg" 
+            Class="w-full" 
+            OnClick="OnBuyClick">
+            @BuyButtonText
+        </Button>
+        
+        @if (!string.IsNullOrEmpty(SecondaryLabel))
+        {
+            <p class="text-sm text-gray-600 text-center mt-3">@SecondaryLabel</p>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "PWA Master - E-book";
+    
+    [Parameter]
+    public decimal Price { get; set; } = 97.00m;
+    
+    [Parameter]
+    public decimal OriginalPrice { get; set; } = 149.90m;
+    
+    [Parameter]
+    public bool ShowDiscount { get; set; } = true;
+    
+    [Parameter]
+    public string DiscountLabel { get; set; } = "35% OFF";
+    
+    [Parameter]
+    public string InstallmentInfo { get; set; } = "ou em até 12x de R$ 8,08";
+    
+    [Parameter]
+    public bool IsFeatured { get; set; } = true;
+    
+    [Parameter]
+    public string BuyButtonText { get; set; } = "Comprar agora";
+    
+    [Parameter]
+    public string SecondaryLabel { get; set; } = "Acesso imediato após a compra";
+    
+    [Parameter]
+    public List<string> Features { get; set; } = new List<string>
+    {
+        "E-book completo (PDF, EPUB e MOBI)",
+        "Exemplos de código fonte",
+        "Acesso vitalício a atualizações",
+        "30 dias de garantia"
+    };
+    
+    [Parameter]
+    public EventCallback OnBuyClick { get; set; }
+}

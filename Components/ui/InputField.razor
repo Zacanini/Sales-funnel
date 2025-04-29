@@ -1,0 +1,99 @@
+@namespace Sales_funnel.Components.UI
+
+<div class="mb-4">
+    @if (!string.IsNullOrEmpty(Label))
+    {
+        <label for="@Id" class="block text-gray-600 mb-1">@Label</label>
+    }
+    <div class="relative @Class">
+        @if (!string.IsNullOrEmpty(Icon))
+        {
+            <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none text-gray-400">
+                @if (Icon == "user")
+                {
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                }
+                else if (Icon == "mail")
+                {
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                }
+                else if (Icon == "phone")
+                {
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                }
+                else if (Icon == "lock")
+                {
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                        <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                    </svg>
+                }
+            </div>
+        }
+        <input 
+            id="@Id"
+            type="@Type"
+            class="w-full @(string.IsNullOrEmpty(Icon) ? "px-4" : "pl-10 pr-4") py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-300 @(HasError ? "border-red-500" : "border-gray-300")"
+            placeholder="@Placeholder"
+            value="@Value"
+            @oninput="OnValueChanged"
+            @onblur="OnBlur"
+            disabled="@Disabled" />
+        @if (HasError && !string.IsNullOrEmpty(ErrorMessage))
+        {
+            <p class="text-red-500 text-sm mt-1">@ErrorMessage</p>
+        }
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Id { get; set; } = Guid.NewGuid().ToString();
+    
+    [Parameter]
+    public string Label { get; set; } = "";
+    
+    [Parameter]
+    public string Type { get; set; } = "text";
+    
+    [Parameter]
+    public string Placeholder { get; set; } = "";
+    
+    [Parameter]
+    public string Value { get; set; } = "";
+    
+    [Parameter]
+    public bool HasError { get; set; } = false;
+    
+    [Parameter]
+    public string ErrorMessage { get; set; } = "";
+    
+    [Parameter]
+    public bool Disabled { get; set; } = false;
+    
+    [Parameter]
+    public string Icon { get; set; } = "";
+    
+    [Parameter]
+    public string Class { get; set; } = "";
+    
+    [Parameter]
+    public EventCallback<string> ValueChanged { get; set; }
+    
+    [Parameter] 
+    public EventCallback OnBlur { get; set; }
+    
+    private async Task OnValueChanged(ChangeEventArgs e)
+    {
+        Value = e.Value?.ToString() ?? "";
+        await ValueChanged.InvokeAsync(Value);
+    }
+}

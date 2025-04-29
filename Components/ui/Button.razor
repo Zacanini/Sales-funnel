@@ -1,0 +1,52 @@
+@namespace Sales_funnel.Components.UI
+
+<button 
+    class="@GetButtonClasses() px-4 py-2 rounded font-medium transition duration-200 focus:outline-none focus:ring-2"
+    type="@Type"
+    disabled="@Disabled"
+    @onclick="@OnClick">
+    @ChildContent
+</button>
+
+@code {
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+    
+    [Parameter]
+    public string Variant { get; set; } = "primary";
+    
+    [Parameter]
+    public string Size { get; set; } = "md";
+    
+    [Parameter]
+    public bool Disabled { get; set; } = false;
+    
+    [Parameter]
+    public string Type { get; set; } = "button";
+    
+    [Parameter]
+    public EventCallback<MouseEventArgs> OnClick { get; set; }
+    
+    [Parameter]
+    public string Class { get; set; } = "";
+    
+    private string GetButtonClasses()
+    {
+        return Variant switch
+        {
+            "primary" => "bg-blue-500 text-white hover:bg-blue-700 focus:ring-blue-300",
+            "secondary" => "bg-green-500 text-white hover:bg-green-700 focus:ring-green-300",
+            "accent" => "bg-purple-500 text-white hover:bg-purple-700 focus:ring-purple-300",
+            "outline" => "bg-transparent border border-blue-500 text-blue-500 hover:bg-blue-50",
+            "ghost" => "bg-transparent text-blue-500 hover:bg-blue-50",
+            _ => "bg-blue-500 text-white hover:bg-blue-700 focus:ring-blue-300"
+        } + " " + Size switch
+        {
+            "sm" => "text-sm",
+            "md" => "text-base",
+            "lg" => "text-lg",
+            _ => "text-base"
+        } + (Disabled ? " opacity-50 cursor-not-allowed" : "") 
+        + (!string.IsNullOrEmpty(Class) ? " " + Class : "");
+    }
+}

@@ -1,0 +1,29 @@
+@using Sales_funnel.Components.Global
+@using Sales_funnel.Components.LandingPage
+@using Sales_funnel.Components.UI
+@inject NavigationManager NavigationManager
+
+<section class="py-12 bg-blue-100">
+    <div class="container mx-auto px-4 text-center">
+        <h3 class="text-2xl font-bold mb-4">Pronto para transformar suas habilidades de desenvolvimento web?</h3>
+        <p class="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
+            O e-book PWA Master fornece todo o conhecimento que você precisa para se destacar como desenvolvedor de aplicações web progressivas.
+        </p>
+        <Button Variant="primary" Size="lg" OnClick="@(() => NavigateToRegistration())" Class="bg-yellow-400 text-blue-800 hover:bg-yellow-300 shadow-lg transform transition hover:-translate-y-1 font-bold">
+            <span class="flex items-center">
+                Começar agora
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ms-2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </span>
+        </Button>
+    </div>
+</section>
+
+@code {
+    private void NavigateToRegistration()
+    {
+        NavigationManager.NavigateTo("/formulario-cadastro");
+    }
+}

@@ -1,0 +1,172 @@
+@namespace Sales_funnel.Components.LandingPage
+@using Sales_funnel.Components.UI
+
+<div class="bg-gradient-to-br from-blue-500 to-purple-600 py-24 relative overflow-hidden">
+    <!-- Elementos decorativos no fundo -->
+    <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute opacity-10 bg-white rounded-full w-64 h-64 -top-20 -left-20"></div>
+        <div class="absolute opacity-10 bg-white rounded-full w-96 h-96 -bottom-40 -right-20"></div>
+        <div class="absolute opacity-5 bg-white rounded-full w-40 h-40 top-1/4 right-1/4"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2 mb-12 md:mb-0">
+                <Badge Class="mb-4 bg-white text-blue-600">PWA Master</Badge>
+                <h1 class="text-4xl md:text-5xl font-bold mb-6 text-white leading-tight">
+                    Desenvolva PWAs de <span class="text-yellow-300">Nível Profissional</span>
+                </h1>
+                <p class="text-lg md:text-xl text-blue-100 mb-8 leading-relaxed">
+                    Aprenda a construir aplicações web progressivas que funcionam offline, 
+                    enviam notificações e proporcionam uma experiência excepcional aos usuários.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <Button Variant="primary" Size="lg" OnClick="OnPrimaryButtonClick" Class="bg-yellow-400 text-blue-800 hover:bg-yellow-500 hover:text-white font-bold shadow-lg transform transition hover:-translate-y-1 cursor-pointer">
+                        <span class="flex items-center">
+                            Começar Agora
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ms-2">
+                                <line x1="5" y1="12" x2="19" y2="12"></line>
+                                <polyline points="12 5 19 12 12 19"></polyline>
+                            </svg>
+                        </span>
+                    </Button>
+                    
+                    <Button Variant="outline" Size="lg" OnClick="OnSecondaryButtonClick" Class="border-2 border-white text-white hover:bg-white hover:text-blue-600 transition-colors">
+                        <span class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polygon points="10 8 16 12 10 16 10 8"></polygon>
+                            </svg>
+                            Ver Demonstração
+                        </span>
+                    </Button>
+                </div>
+                
+                <div class="mt-8 bg-blue-600 bg-opacity-30 p-4 rounded-lg border border-blue-400 border-opacity-20">
+                    <div class="flex items-center">
+                        <div class="flex -space-x-3 mr-4">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Usuário" class="w-10 h-10 rounded-full border-2 border-white" />
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Usuário" class="w-10 h-10 rounded-full border-2 border-white" />
+                            <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="Usuário" class="w-10 h-10 rounded-full border-2 border-white" />
+                            <div class="w-10 h-10 rounded-full bg-blue-500 border-2 border-white flex items-center justify-center text-white text-xs font-bold">
+                                500+
+                            </div>
+                        </div>
+                        <p class="text-blue-100">
+                            <span class="font-bold text-white">Mais de 500 desenvolvedores</span> já estão aprimorando suas habilidades
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="md:w-1/2 flex justify-center">
+                <div class="relative">
+                    <!-- Mockup de dispositivo móvel com PWA -->
+                    <div class="bg-gray-800 rounded-3xl p-3 shadow-2xl w-72 mx-auto transform rotate-2 hover:rotate-0 transition-transform duration-300">
+                        <div class="bg-white rounded-2xl overflow-hidden h-[520px] relative">
+                            <!-- Barra de status -->
+                            <div class="bg-gray-900 text-white p-2 flex justify-between text-xs">
+                                <div>9:41</div>
+                                <div class="flex items-center space-x-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 10a6 6 0 0 0-12 0v8h12v-8z"></path>
+                                        <path d="M9 2v2"></path>
+                                        <path d="M15 2v2"></path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M2 4v16l20-10z"></path>
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M18 8V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h2"></path>
+                                        <rect width="8" height="8" x="14" y="14" rx="2"></rect>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <!-- Conteúdo PWA -->
+                            <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4">
+                                <div class="flex justify-between items-center">
+                                    <div class="flex items-center">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                                        </svg>
+                                        <span class="ml-2 font-medium">PWA Master</span>
+                                    </div>
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <circle cx="12" cy="12" r="1"></circle>
+                                            <circle cx="19" cy="12" r="1"></circle>
+                                            <circle cx="5" cy="12" r="1"></circle>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="mt-6 mb-2">
+                                    <h2 class="text-2xl font-bold">Domine PWAs</h2>
+                                    <p class="opacity-80 text-sm">Aprenda tudo sobre Service Workers</p>
+                                </div>
+                            </div>
+
+                            <div class="p-4">
+                                <div class="bg-gray-50 p-4 rounded-lg mb-4 shadow-sm">
+                                    <div class="flex items-center mb-2">
+                                        <div class="h-8 w-8 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold mr-2">1</div>
+                                        <div class="h-4 bg-gray-300 rounded w-3/4"></div>
+                                    </div>
+                                    <div class="h-3 bg-gray-300 rounded w-full mb-2"></div>
+                                    <div class="h-3 bg-gray-300 rounded w-5/6"></div>
+                                </div>
+                                
+                                <div class="bg-gray-50 p-4 rounded-lg mb-4 shadow-sm">
+                                    <div class="flex items-center mb-2">
+                                        <div class="h-8 w-8 rounded-full bg-gray-300 flex items-center justify-center text-gray-600 font-bold mr-2">2</div>
+                                        <div class="h-4 bg-gray-300 rounded w-2/3"></div>
+                                    </div>
+                                    <div class="h-3 bg-gray-300 rounded w-full mb-2"></div>
+                                    <div class="h-3 bg-gray-300 rounded w-4/5"></div>
+                                </div>
+                                
+                                <div class="bg-gray-50 p-4 rounded-lg mb-4 shadow-sm opacity-50">
+                                    <div class="flex items-center mb-2">
+                                        <div class="h-8 w-8 rounded-full bg-gray-300 flex items-center justify-center text-gray-600 font-bold mr-2">3</div>
+                                        <div class="h-4 bg-gray-300 rounded w-1/2"></div>
+                                    </div>
+                                    <div class="h-3 bg-gray-300 rounded w-full mb-2"></div>
+                                    <div class="h-3 bg-gray-300 rounded w-3/4"></div>
+                                </div>
+                                
+                                <button class="bg-gradient-to-r from-blue-500 to-purple-600 p-3 rounded-lg text-center text-white font-medium w-full shadow-md">
+                                    Continuar Aprendendo
+                                </button>
+                            </div>
+
+                            <!-- Indicador de instalação -->
+                            <div class="absolute bottom-0 inset-x-0 bg-gray-100 p-2 flex justify-center items-center text-xs text-gray-600">
+                                <div class="w-1/3 h-1 bg-gray-300 rounded-full"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Badges -->
+                    <div class="absolute -top-4 -right-4 bg-yellow-400 text-blue-800 py-2 px-4 rounded-full text-sm font-bold shadow-lg transform rotate-12">
+                        100% Offline
+                    </div>
+                    
+                    <div class="absolute -bottom-3 -left-3 bg-green-500 text-white py-1 px-3 rounded-full text-xs font-bold shadow-md transform -rotate-6">
+                        Instalável
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public EventCallback OnPrimaryButtonClick { get; set; }
+    
+    [Parameter]
+    public EventCallback OnSecondaryButtonClick { get; set; }
+}
+
+

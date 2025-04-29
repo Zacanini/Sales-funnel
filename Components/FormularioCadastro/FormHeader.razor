@@ -1,0 +1,47 @@
+@namespace Sales_funnel.Components.FormularioCadastro
+
+<div class="mb-8">
+    <div class="flex justify-center mb-6">
+        <span class="inline-flex items-center justify-center h-16 w-16 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+        </span>
+    </div>
+    
+    <div class="text-center">
+        <h1 class="text-3xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">@Title</h1>
+        
+        <!-- Progress indicator - cria sensação de comprometimento e processo fácil -->
+        <div class="flex items-center justify-center mb-4">
+            <span class="text-xs text-blue-600 bg-blue-50 px-2 py-1 rounded-full font-medium">50 SEGUNDOS PARA PREENCHER</span>
+        </div>
+        
+        <p class="text-gray-600 max-w-xl mx-auto mb-4">@Description</p>
+        
+        <!-- Indicador de demanda - escassez -->
+        <div class="flex items-center justify-center text-sm text-gray-500">
+            <span class="flex items-center mr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-green-500 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                Verificado por 500+ desenvolvedores
+            </span>
+            <span class="w-1 h-1 bg-gray-300 rounded-full mx-2"></span>
+            <span class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-yellow-500 mr-1" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118l-2.8-2.034c-.783-.57-.38-1.81.588-1.81h3.462a1 1 0 00.95-.69l1.07-3.292z" />
+                </svg>
+                4.9/5 avaliações
+            </span>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "Cadastre-se para ter acesso";
+    
+    [Parameter]
+    public string Description { get; set; } = "Preencha o formulário abaixo para receber conteúdos exclusivos sobre PWAs e garantir seu acesso ao e-book PWA Master com condições especiais.";
+}

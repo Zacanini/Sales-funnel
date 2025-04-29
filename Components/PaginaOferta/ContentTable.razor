@@ -1,0 +1,141 @@
+@namespace Sales_funnel.Components.PaginaOferta
+@using Sales_funnel.Components.UI
+
+<Card>
+    <div>
+        <h3 class="text-xl font-bold mb-5">@Title</h3>
+        
+        <div class="space-y-4">
+            @foreach (var chapter in Chapters)
+            {
+                <div class="border border-gray-200 rounded-lg overflow-hidden">
+                    <div class="bg-gray-50 p-4 flex justify-between items-center @(chapter.IsExpanded ? "border-b border-gray-200" : "")">
+                        <h4 class="font-semibold">@chapter.Title</h4>
+                        <button 
+                            @onclick="() => ToggleChapter(chapter)"
+                            class="text-gray-600">
+                            @if (chapter.IsExpanded)
+                            {
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="18" y1="12" x2="6" y2="12"></line>
+                                </svg>
+                            }
+                            else
+                            {
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="12" y1="6" x2="12" y2="18"></line>
+                                    <line x1="18" y1="12" x2="6" y2="12"></line>
+                                </svg>
+                            }
+                        </button>
+                    </div>
+                    
+                    @if (chapter.IsExpanded && chapter.Sections.Any())
+                    {
+                        <div class="p-4">
+                            <ul class="pl-4 space-y-2">
+                                @foreach (var section in chapter.Sections)
+                                {
+                                    <li class="flex items-start">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-blue-500 mt-1 mr-2">
+                                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                                            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                                        </svg>
+                                        <span class="text-gray-700">@(section)</span>
+                                    </li>
+                                }
+                            </ul>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</Card>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "O que você vai encontrar neste e-book";
+    
+    [Parameter]
+    public List<Chapter> Chapters { get; set; } = new();
+    
+    protected override void OnInitialized()
+    {
+        if (Chapters.Count == 0)
+        {
+            // Dados padrão caso não sejam fornecidos
+            Chapters = new List<Chapter>
+            {
+                new Chapter
+                {
+                    Title = "Capítulo 1: Introdução às Progressive Web Apps",
+                    IsExpanded = true,
+                    Sections = new List<string>
+                    {
+                        "O que são PWAs e por que são importantes",
+                        "História e evolução das PWAs",
+                        "Vantagens em relação a aplicativos nativos",
+                        "Casos de uso e exemplos de sucesso"
+                    }
+                },
+                new Chapter
+                {
+                    Title = "Capítulo 2: Fundamentos Técnicos",
+                    Sections = new List<string>
+                    {
+                        "Service Workers: o coração das PWAs",
+                        "Web App Manifest e configuração",
+                        "API Cache e estratégias de armazenamento",
+                        "Ferramentas de desenvolvimento para PWAs"
+                    }
+                },
+                new Chapter
+                {
+                    Title = "Capítulo 3: Funcionalidades Avançadas",
+                    Sections = new List<string>
+                    {
+                        "Notificações Push e Background Sync",
+                        "Acesso a recursos do dispositivo",
+                        "Responsividade e adaptabilidade",
+                        "Padrões para arquitetura de PWAs"
+                    }
+                },
+                new Chapter
+                {
+                    Title = "Capítulo 4: Otimização e Performance",
+                    Sections = new List<string>
+                    {
+                        "Estratégias de cache para desempenho máximo",
+                        "Lazy loading e otimização de recursos",
+                        "Workbox e outras bibliotecas para PWAs",
+                        "Métricas de desempenho e ferramentas de teste"
+                    }
+                },
+                new Chapter
+                {
+                    Title = "Capítulo 5: Implementação na Prática",
+                    Sections = new List<string>
+                    {
+                        "Projeto passo a passo: construindo sua primeira PWA",
+                        "Implementação de service workers e manifestos",
+                        "Estratégias para experiências offline robustas",
+                        "Depuração e testes em múltiplas plataformas"
+                    }
+                }
+            };
+        }
+    }
+    
+    private void ToggleChapter(Chapter chapter)
+    {
+        chapter.IsExpanded = !chapter.IsExpanded;
+    }
+    
+    public class Chapter
+    {
+        public string Title { get; set; } = "";
+        public bool IsExpanded { get; set; } = false;
+        public List<string> Sections { get; set; } = new();
+    }
+}

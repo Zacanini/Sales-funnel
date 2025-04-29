@@ -1,0 +1,61 @@
+@namespace Sales_funnel.Components.UI
+
+<div class="@GetCardClasses()">
+    @if (!string.IsNullOrEmpty(Title))
+    {
+        <div class="border-b border-gray-200 pb-3 mb-4">
+            <h3 class="text-lg font-bold">@Title</h3>
+            @if (!string.IsNullOrEmpty(Subtitle))
+            {
+                <p class="text-gray-600 mt-1">@Subtitle</p>
+            }
+        </div>
+    }
+    <div class="@ContentClass">
+        @ChildContent
+    </div>
+    @if (FooterContent != null)
+    {
+        <div class="border-t border-gray-200 pt-3 mt-4">
+            @FooterContent
+        </div>
+    }
+</div>
+
+@code {
+    [Parameter]
+    public RenderFragment? ChildContent { get; set; }
+    
+    [Parameter]
+    public RenderFragment? FooterContent { get; set; }
+    
+    [Parameter]
+    public string Title { get; set; } = "";
+    
+    [Parameter]
+    public string Subtitle { get; set; } = "";
+    
+    [Parameter]
+    public string ContentClass { get; set; } = "";
+    
+    [Parameter]
+    public string Class { get; set; } = "";
+    
+    [Parameter]
+    public string Variant { get; set; } = "default";
+
+    private string GetCardClasses()
+    {
+        var baseClasses = "rounded overflow-hidden";
+        var variantClasses = Variant switch
+        {
+            "default" => "bg-white shadow p-5",
+            "outlined" => "bg-white border border-gray-200 p-5",
+            "elevated" => "bg-white shadow-lg p-5",
+            "flat" => "bg-gray-100 p-5",
+            _ => "bg-white shadow p-5"
+        };
+        
+        return $"{baseClasses} {variantClasses} {Class}";
+    }
+}

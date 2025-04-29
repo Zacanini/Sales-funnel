@@ -1,14 +1,192 @@
-﻿@page "/paginaoferta"
+﻿@page "/pagina-oferta"
+@using Sales_funnel.Components.Global
+@using Sales_funnel.Components.PaginaOferta
+@using Sales_funnel.Components.UI
+@inject NavigationManager NavigationManager
 
-<div class="flex flex-col items-center justify-center min-h-screen bg-purple-100 p-8">
-    <h1 class="text-4xl font-bold mb-6">Oferta Exclusiva!</h1>
+<SEO 
+    Title="PWA Master: E-book Completo sobre Progressive Web Apps" 
+    Description="Aprenda a desenvolver PWAs de forma completa, com exemplos práticos, técnicas avançadas e estratégias para criar aplicações web que funcionam offline."
+    ImageUrl="https://via.placeholder.com/1200x630"
+    Keywords="@(new[] { "PWA", "Progressive Web Apps", "E-book", "Desenvolvimento Web", "Service Workers", "Offline", "Frontend" })"
+/>
 
-    <div class="bg-white p-8 rounded shadow-md w-full max-w-md mb-6">
-        <p class="text-lg mb-4">Adquira agora nosso produto com 30% de desconto!</p>
-        <p class="text-sm text-gray-600 mb-6">Oferta válida até hoje!</p>
-        <button 
-            class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded">
-            Comprar Agora
-        </button>
+<div class="bg-gray-50 py-8">
+    <div class="container mx-auto px-4">
+        
+        <div class="max-w-5xl mx-auto mt-8">
+            <ProductDetails 
+                ImageUrl="https://via.placeholder.com/400x500"
+                PurchaseButtonText="Comprar por R$ 97,00"
+                SecondaryButtonText="Ver detalhes"
+                OnPurchaseClick="@HandlePurchase"
+                OnSecondaryClick="@(() => ScrollToSection("conteudo"))"
+            />
+            
+            <div class="mt-16" id="vantagens">
+                <h2 class="text-2xl font-bold mb-6 text-center">Por que o PWA Master vai acelerar seu desenvolvimento?</h2>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="text-center">
+                        <div class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M13 2L3 14h9l-1 8 10-16h-9l1-4z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="font-bold mb-2">Aprenda Mais Rápido</h3>
+                        <p class="text-gray-600">
+                            Conteúdo estruturado para acelerar seu aprendizado, com exemplos práticos e código funcional.
+                        </p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-green-100 text-green-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="font-bold mb-2">Evite Erros Comuns</h3>
+                        <p class="text-gray-600">
+                            Aprenda com exemplos de problemas reais e como evitar armadilhas no desenvolvimento de PWAs.
+                        </p>
+                    </div>
+                    
+                    <div class="text-center">
+                        <div class="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                            </svg>
+                        </div>
+                        <h3 class="font-bold mb-2">Código Reutilizável</h3>
+                        <p class="text-gray-600">
+                            Obtenha acesso a snippets e componentes prontos para usar em seus projetos profissionais.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16" id="conteudo">
+                <ContentTable />
+            </div>
+            
+            <div class="mt-16">
+                <div class="text-center mb-6">
+                    <h2 class="text-2xl font-bold mb-2">Opções de compra</h2>
+                    <p class="text-gray-600">Escolha a opção que melhor atende às suas necessidades</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
+                    <PricingTable 
+                        Title="PWA Master - E-book Básico" 
+                        Price="97.00m"
+                        OriginalPrice="149.90m"
+                        IsFeatured="true"
+                        OnBuyClick="@HandlePurchase"
+                        Features="@(new List<string> {
+                            "E-book em PDF, EPUB e MOBI",
+                            "Exemplos de código fonte",
+                            "Acesso vitalício a atualizações",
+                            "30 dias de garantia"
+                        })"
+                    />
+                    
+                    <PricingTable 
+                        Title="PWA Master Premium" 
+                        Price="197.00m"
+                        OriginalPrice="297.90m"
+                        DiscountLabel="33% OFF"
+                        InstallmentInfo="ou em até 12x de R$ 16,41"
+                        BuyButtonText="Quero o Premium"
+                        IsFeatured="false"
+                        OnBuyClick="@HandlePurchasePremium"
+                        Features="@(new List<string> {
+                            "Tudo do pacote básico",
+                            "3 projetos PWA completos",
+                            "Acesso a comunidade exclusiva",
+                            "Atualizações por 1 ano",
+                            "Suporte por email por 3 meses",
+                            "Certificado de conclusão"
+                        })"
+                    />
+                </div>
+            </div>
+            
+            <div class="mt-16">
+                <div class="bg-white p-8 rounded-lg shadow-sm">
+                    <div class="text-center mb-6">
+                        <h2 class="text-2xl font-bold mb-2">O que estão dizendo sobre o PWA Master</h2>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <Testimonial
+                            Quote="O e-book PWA Master é exatamente o que eu precisava para entender como criar PWAs eficientes. Os exemplos práticos são incríveis."
+                            Author="Renata Almeida"
+                            Role="Frontend Developer"
+                            AvatarUrl="https://randomuser.me/api/portraits/women/68.jpg"
+                        />
+                        
+                        <Testimonial
+                            Quote="Como professor de desenvolvimento web, recomendo este e-book para todos os meus alunos que desejam aprofundar em PWAs."
+                            Author="Carlos Eduardo"
+                            Role="Professor Universitário"
+                            AvatarUrl="https://randomuser.me/api/portraits/men/43.jpg"
+                        />
+                        
+                        <Testimonial
+                            Quote="Os exemplos de código são de alta qualidade e fáceis de adaptar. Já estou implementando PWAs nos projetos da minha empresa."
+                            Author="Juliana Costa"
+                            Role="Tech Lead"
+                            AvatarUrl="https://randomuser.me/api/portraits/women/33.jpg"
+                        />
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16">
+                <Card Variant="elevated" Class="p-6 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+                    <div class="md:flex items-center justify-between">
+                        <div class="mb-4 md:mb-0">
+                            <h3 class="text-xl font-bold mb-2">Pronto para dominar o desenvolvimento de PWAs?</h3>
+                            <p class="opacity-90">Adquira agora o e-book PWA Master e transforme suas habilidades de desenvolvimento web.</p>
+                        </div>
+                        <div>
+                            <Button Variant="primary" Size="lg" Class="bg-white text-blue-600 hover:bg-blue-50" OnClick="HandlePurchase">
+                                Comprar Agora
+                            </Button>
+                        </div>
+                    </div>
+                </Card>
+            </div>
+            
+            <div class="mt-8 text-center text-gray-600 text-sm">
+                <p>Garantia de 30 dias ou seu dinheiro de volta. Sem perguntas.</p>
+                <p class="mt-1">© @DateTime.Now.Year PWA Master. Todos os direitos reservados.</p>
+            </div>
+        </div>
     </div>
 </div>
+
+@code {
+    private void HandlePurchase()
+    {
+        // Em um ambiente real, aqui direcionaria para uma página de checkout
+        // Para o protótipo, apenas exibe um console log
+        Console.WriteLine("Compra do pacote básico solicitada");
+        
+        // Mostrar um alert usando JS seria uma opção em uma implementação real
+    }
+    
+    private void HandlePurchasePremium()
+    {
+        // Em um ambiente real, aqui direcionaria para uma página de checkout do pacote premium
+        // Para o protótipo, apenas exibe um console log
+        Console.WriteLine("Compra do pacote premium solicitada");
+    }
+    
+    private void ScrollToSection(string sectionId)
+    {
+        // Em um ambiente real, aqui seria implementado o scroll usando JS
+        // Para o protótipo, esta função é apenas um placeholder
+    }
+}

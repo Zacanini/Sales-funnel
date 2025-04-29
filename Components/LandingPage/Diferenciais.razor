@@ -1,0 +1,57 @@
+@using Sales_funnel.Components.Global
+@using Sales_funnel.Components.LandingPage
+@using Sales_funnel.Components.UI
+@inject NavigationManager NavigationManager
+
+<section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-bold mb-4">O que os desenvolvedores estão dizendo</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                Mais de 500 desenvolvedores já melhoraram suas habilidades com o PWA Master.
+            </p>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+            <Testimonial
+                Quote="O e-book PWA Master transformou a forma como desenvolvo aplicações web. Agora posso criar PWAs robustas e de alta performance."
+                Author="Carlos Silva"
+                Role="Desenvolvedor Frontend"
+                AvatarUrl="https://randomuser.me/api/portraits/men/32.jpg"
+            />
+            
+            <Testimonial
+                Quote="Conteúdo muito bem estruturado e prático. Consegui implementar minha primeira PWA completa em menos de uma semana após a leitura."
+                Author="Ana Rodrigues"
+                Role="Desenvolvedora Full Stack"
+                AvatarUrl="https://randomuser.me/api/portraits/women/44.jpg"
+            />
+            
+            <Testimonial
+                Quote="Um guia impressionante para PWAs. A seção sobre Service Workers e caching resolveu todos os problemas que eu estava enfrentando."
+                Author="Marcos Oliveira"
+                Role="Arquiteto de Software"
+                AvatarUrl="https://randomuser.me/api/portraits/men/86.jpg"
+            />
+        </div>
+        
+        <div class="flex justify-center">
+            <Sales_funnel.Components.UI.Button Variant="primary" Size="lg" OnClick="@(() => NavigateToRegistration())" Class="bg-yellow-400 text-blue-800 hover:bg-yellow-300 shadow-lg transform transition hover:-translate-y-1 font-bold">
+                <span class="flex items-center">
+                    Quero aprender PWA agora
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ms-2">
+                        <line x1="5" y1="12" x2="19" y2="12"></line>
+                        <polyline points="12 5 19 12 12 19"></polyline>
+                    </svg>
+                </span>
+            </Sales_funnel.Components.UI.Button>
+        </div>
+    </div>
+</section>
+
+@code {
+    private void NavigateToRegistration()
+    {
+        NavigationManager.NavigateTo("/formulario-cadastro");
+    }
+}

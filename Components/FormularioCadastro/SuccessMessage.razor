@@ -1,0 +1,132 @@
+@namespace Sales_funnel.Components.FormularioCadastro
+@using Sales_funnel.Components.UI
+@inject NavigationManager NavigationManager
+
+<div class="text-center p-6 max-w-lg mx-auto">
+    <div class="relative mb-8">
+        <!-- Elementos decorativos -->
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-32 h-32 bg-green-100 rounded-full animate-pulse opacity-60"></div>
+        
+        <div class="inline-flex items-center justify-center bg-gradient-to-r from-green-500 to-teal-500 text-white p-5 rounded-full mb-6 relative z-10 shadow-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+        </div>
+    </div>
+    
+    <h2 class="text-3xl font-bold mb-3 bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-teal-600">@Title</h2>
+    
+    <p class="text-gray-600 mb-6 text-lg">@Message</p>
+    
+    <div class="mb-8">
+        <div class="bg-gradient-to-r from-blue-50 to-green-50 rounded-2xl p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow">
+            <h3 class="text-lg font-bold mb-4 flex items-center">
+                <div class="inline-block bg-blue-100 text-blue-600 p-2 rounded-full mr-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                    </svg>
+                </div>
+                <span>Próximos passos:</span>
+            </h3>
+            
+            <ul class="space-y-4">
+                @foreach (var step in Steps)
+                {
+                    <li class="flex items-center">
+                        <div class="bg-gradient-to-r from-blue-500 to-blue-600 text-white rounded-full p-1 mr-3 shadow-sm">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                        </div>
+                        <span class="text-gray-700 text-left">@step</span>
+                    </li>
+                }
+            </ul>
+            
+            <!-- Progress Animation -->
+            <div class="mt-6">
+                <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div class="bg-gradient-to-r from-blue-500 to-green-500 h-2 rounded-full w-4/5 animate-pulse"></div>
+                </div>
+                <p class="text-sm text-gray-500 mt-2">Preparando seu ambiente exclusivo...</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="relative group cursor-pointer">
+        <div class="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl blur-sm group-hover:blur opacity-60 group-hover:opacity-90 transition duration-200"></div>
+        <Button Variant="primary" Size="lg" OnClick="@OnContinueClick" Class="relative px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 shadow-lg transform transition hover:-translate-y-1 font-bold text-lg">
+            <span class="flex items-center">
+                Continuar para os Conteúdos Exclusivos
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="ms-2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+            </span>
+        </Button>
+    </div>
+    
+    <!-- Social Sharing -->
+    <div class="mt-10">
+        <p class="text-base font-bold text-gray-700 mb-3">Compartilhe seu acesso exclusivo:</p>
+        <div class="flex justify-center space-x-3">
+            <a href="#" class="bg-black hover:bg-gray-800 text-white p-2 rounded-full transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                </svg>
+            </a>
+            <a href="#" style="background-color: #0077B5; color: white;" class="hover:bg-blue-700 p-2 rounded-full transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                </svg>
+            </a>
+            <a href="#" class="bg-[#25D366] hover:bg-[#1da851] text-white p-2 rounded-full transition-colors">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+    
+    <p class="text-sm text-gray-500 mt-6 flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="me-2 text-blue-500">
+            <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"></path>
+        </svg>
+        Enviamos um email de confirmação para <strong>@Email</strong>
+    </p>
+</div>
+
+@code {
+    [Parameter]
+    public string Title { get; set; } = "Cadastro realizado com sucesso!";
+    
+    [Parameter]
+    public string Message { get; set; } = "Sua inscrição foi confirmada e agora você terá acesso aos conteúdos exclusivos sobre PWAs.";
+    
+    [Parameter]
+    public string Email { get; set; } = "";
+    
+    [Parameter]
+    public string[] Steps { get; set; } = new[] {
+        "Acesse os conteúdos exclusivos",
+        "Verifique seu email para conteúdos complementares",
+        "Aguarde nossas comunicações para ofertas especiais"
+    };
+    
+    [Parameter]
+    public EventCallback OnContinueClick { get; set; }
+    
+    private async Task HandleContinue()
+    {
+        if (OnContinueClick.HasDelegate)
+        {
+            await OnContinueClick.InvokeAsync();
+        }
+        else
+        {
+            // Comportamento padrão
+            NavigationManager.NavigateTo("/conteudo-engajamento");
+        }
+    }
+}
