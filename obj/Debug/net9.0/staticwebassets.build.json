@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "pAKno+EuAzJ5p0gaXg4mxqSAHzFBNysQ8EwO86yQaiE=",
+  "Hash": "8O/khFQwyx1AAfZH5y+wLuwbWOLthQVYqpv5Kiz7GxA=",
   "Source": "Sales-funnel",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "qqx1sz7fjn",
-      "Integrity": "7mbeKQ6ay5jcLCVJ7yKojlXOIYLIlSCkRYwb/w+oiRs=",
+      "Fingerprint": "kk7j9nr69g",
+      "Integrity": "FEI+LN5Lbu9MBn5LFCmmhbwiRVLgiuOuRzswyqIRbEs=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\blazor.boot.json"
@@ -871,8 +871,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "mtyvpc4mvn",
-      "Integrity": "Cut32E4umpoMHmRMcBqhrty2GiOWR7P/niJ6p2nNL/Q=",
+      "Fingerprint": "61gq1h2obv",
+      "Integrity": "qngMoQc74ORIG1NBTFJNXieawh2GdFvY8HHdNXfXVN4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net9.0\\Sales-funnel.pdb"
@@ -892,8 +892,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "oxurmvtuno",
-      "Integrity": "pCjniKwOiDLYtc1Ffn+GN5KbUeThDLw0aVtxrtLiijQ=",
+      "Fingerprint": "1cv0xcytjz",
+      "Integrity": "oW8KRaNW0S5Gj0OsCl/rcHPwKWcEM7tfWhLovIb22bc=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\webcil\\Sales-funnel.wasm"
@@ -5813,12 +5813,12 @@
       "OriginalItemSpec": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Windows.wasm"
     },
     {
-      "Identity": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\9n5kg6xhc8-mtyvpc4mvn.gz",
+      "Identity": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\9n5kg6xhc8-61gq1h2obv.gz",
       "SourceId": "Sales-funnel",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Sales-funnel#[.{fingerprint=mtyvpc4mvn}]!.pdb.gz",
+      "RelativePath": "_framework/Sales-funnel#[.{fingerprint=61gq1h2obv}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5827,8 +5827,8 @@
       "RelatedAsset": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Sales-funnel.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1fo7r2h2wg",
-      "Integrity": "XUr7tcHKVl4VcsB3B+67QFl8hkNQQIm8eIQTXa4BKS4=",
+      "Fingerprint": "du5pm61y93",
+      "Integrity": "K9jxJJq4g4KtKS0oIRg3nCfizcO7suT8qO0AZBmaKPI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Sales-funnel.pdb"
@@ -5897,7 +5897,7 @@
       "OriginalItemSpec": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Microsoft.Extensions.FileSystemGlobbing.wasm"
     },
     {
-      "Identity": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\abwyq72lfm-qqx1sz7fjn.gz",
+      "Identity": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\abwyq72lfm-kk7j9nr69g.gz",
       "SourceId": "Sales-funnel",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\",
@@ -5911,8 +5911,8 @@
       "RelatedAsset": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "olzyn1b1yz",
-      "Integrity": "vPPiuiRjucY3KZwyXG4/clPTuzeoqPCcLd0gmwJXVYU=",
+      "Fingerprint": "e84hlsca6j",
+      "Integrity": "Umu6bgxrj1qt0HIRNY2+7HDF0x29IOzIqvWxRWROPdY=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -7766,12 +7766,12 @@
       "OriginalItemSpec": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\System.Security.Cryptography.Encoding.wasm"
     },
     {
-      "Identity": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\m7ij9oe1hp-7hxvfl8wip.gz",
+      "Identity": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\m7ij9oe1hp-f1cj6wgoec.gz",
       "SourceId": "Sales-funnel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "css/output#[.{fingerprint=7hxvfl8wip}]?.css.gz",
+      "RelativePath": "css/output#[.{fingerprint=f1cj6wgoec}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7780,8 +7780,8 @@
       "RelatedAsset": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\wwwroot\\css\\output.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3jbpmfdmoq",
-      "Integrity": "n8hy62KvED0QqTa55YPC+TdT0mVq/ByyuzEL3TI3cgk=",
+      "Fingerprint": "qpgqx61829",
+      "Integrity": "4n84Un+7NmSEY5A0R3JA0pajkillWh5HNsKwku00F9k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\wwwroot\\css\\output.css"
@@ -8900,12 +8900,12 @@
       "OriginalItemSpec": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\tkgi3m8vdz-oxurmvtuno.gz",
+      "Identity": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\tkgi3m8vdz-1cv0xcytjz.gz",
       "SourceId": "Sales-funnel",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Sales-funnel#[.{fingerprint=oxurmvtuno}]!.wasm.gz",
+      "RelativePath": "_framework/Sales-funnel#[.{fingerprint=1cv0xcytjz}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8914,8 +8914,8 @@
       "RelatedAsset": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Sales-funnel.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "s6a8dj8h09",
-      "Integrity": "bAE0zphO9x+RfM+qIb+nFFhf4tyLJtGDFlZpJx1C6gY=",
+      "Fingerprint": "9cyc75bfcb",
+      "Integrity": "J7zqqrI2mHGCGBGeGDMThis3X9PwFBwPc/zAVb2f8IM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Sales-funnel.wasm"
@@ -9754,8 +9754,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "7hxvfl8wip",
-      "Integrity": "Ox6NQ8KZt79dcL1F4I00SPrX1OMkNZuej2LD/8MwJgY=",
+      "Fingerprint": "f1cj6wgoec",
+      "Integrity": "swkhpb4Fl8M/SJaXJOZrRrHgH0aW8tgOIgBJQZ5VRdg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\output.css"
@@ -10789,11 +10789,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7mbeKQ6ay5jcLCVJ7yKojlXOIYLIlSCkRYwb/w+oiRs=\""
+          "Value": "\"FEI+LN5Lbu9MBn5LFCmmhbwiRVLgiuOuRzswyqIRbEs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
+          "Value": "Tue, 29 Apr 2025 17:16:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10803,18 +10803,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7mbeKQ6ay5jcLCVJ7yKojlXOIYLIlSCkRYwb/w+oiRs="
+          "Value": "sha256-FEI+LN5Lbu9MBn5LFCmmhbwiRVLgiuOuRzswyqIRbEs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\abwyq72lfm-qqx1sz7fjn.gz",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\abwyq72lfm-kk7j9nr69g.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000081247969"
+          "Quality": "0.000081228170"
         }
       ],
       "ResponseHeaders": [
@@ -10824,15 +10824,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12307"
+          "Value": "12310"
         },
         {
           "Name": "ETag",
-          "Value": "\"vPPiuiRjucY3KZwyXG4/clPTuzeoqPCcLd0gmwJXVYU=\""
+          "Value": "\"Umu6bgxrj1qt0HIRNY2+7HDF0x29IOzIqvWxRWROPdY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:08 GMT"
+          "Value": "Tue, 29 Apr 2025 17:09:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10852,19 +10852,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"7mbeKQ6ay5jcLCVJ7yKojlXOIYLIlSCkRYwb/w+oiRs=\""
+          "Value": "W/\"FEI+LN5Lbu9MBn5LFCmmhbwiRVLgiuOuRzswyqIRbEs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7mbeKQ6ay5jcLCVJ7yKojlXOIYLIlSCkRYwb/w+oiRs="
+          "Value": "sha256-FEI+LN5Lbu9MBn5LFCmmhbwiRVLgiuOuRzswyqIRbEs="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\abwyq72lfm-qqx1sz7fjn.gz",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\abwyq72lfm-kk7j9nr69g.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10873,7 +10873,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12307"
+          "Value": "12310"
         },
         {
           "Name": "Content-Type",
@@ -10881,11 +10881,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vPPiuiRjucY3KZwyXG4/clPTuzeoqPCcLd0gmwJXVYU=\""
+          "Value": "\"Umu6bgxrj1qt0HIRNY2+7HDF0x29IOzIqvWxRWROPdY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:08 GMT"
+          "Value": "Tue, 29 Apr 2025 17:09:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10903,7 +10903,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vPPiuiRjucY3KZwyXG4/clPTuzeoqPCcLd0gmwJXVYU="
+          "Value": "sha256-Umu6bgxrj1qt0HIRNY2+7HDF0x29IOzIqvWxRWROPdY="
         }
       ]
     },
@@ -22369,168 +22369,7 @@
       ]
     },
     {
-      "Route": "_framework/Sales-funnel.mtyvpc4mvn.pdb",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Sales-funnel.pdb",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "146364"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Cut32E4umpoMHmRMcBqhrty2GiOWR7P/niJ6p2nNL/Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mtyvpc4mvn"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Sales-funnel.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Cut32E4umpoMHmRMcBqhrty2GiOWR7P/niJ6p2nNL/Q="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Sales-funnel.mtyvpc4mvn.pdb",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\9n5kg6xhc8-mtyvpc4mvn.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000008046088"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "124283"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XUr7tcHKVl4VcsB3B+67QFl8hkNQQIm8eIQTXa4BKS4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Cut32E4umpoMHmRMcBqhrty2GiOWR7P/niJ6p2nNL/Q=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mtyvpc4mvn"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Sales-funnel.pdb"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Cut32E4umpoMHmRMcBqhrty2GiOWR7P/niJ6p2nNL/Q="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Sales-funnel.mtyvpc4mvn.pdb.gz",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\9n5kg6xhc8-mtyvpc4mvn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "124283"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"XUr7tcHKVl4VcsB3B+67QFl8hkNQQIm8eIQTXa4BKS4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mtyvpc4mvn"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/Sales-funnel.pdb.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-XUr7tcHKVl4VcsB3B+67QFl8hkNQQIm8eIQTXa4BKS4="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/Sales-funnel.oxurmvtuno.wasm",
+      "Route": "_framework/Sales-funnel.1cv0xcytjz.wasm",
       "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Sales-funnel.wasm",
       "Selectors": [],
       "ResponseHeaders": [
@@ -22540,7 +22379,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319765"
+          "Value": "347413"
         },
         {
           "Name": "Content-Type",
@@ -22548,11 +22387,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pCjniKwOiDLYtc1Ffn+GN5KbUeThDLw0aVtxrtLiijQ=\""
+          "Value": "\"oW8KRaNW0S5Gj0OsCl/rcHPwKWcEM7tfWhLovIb22bc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
+          "Value": "Tue, 29 Apr 2025 17:16:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22562,7 +22401,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oxurmvtuno"
+          "Value": "1cv0xcytjz"
         },
         {
           "Name": "label",
@@ -22570,18 +22409,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pCjniKwOiDLYtc1Ffn+GN5KbUeThDLw0aVtxrtLiijQ="
+          "Value": "sha256-oW8KRaNW0S5Gj0OsCl/rcHPwKWcEM7tfWhLovIb22bc="
         }
       ]
     },
     {
-      "Route": "_framework/Sales-funnel.oxurmvtuno.wasm",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\tkgi3m8vdz-oxurmvtuno.gz",
+      "Route": "_framework/Sales-funnel.1cv0xcytjz.wasm",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\tkgi3m8vdz-1cv0xcytjz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000015616948"
+          "Quality": "0.000014994752"
         }
       ],
       "ResponseHeaders": [
@@ -22591,15 +22430,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "64032"
+          "Value": "66689"
         },
         {
           "Name": "ETag",
-          "Value": "\"bAE0zphO9x+RfM+qIb+nFFhf4tyLJtGDFlZpJx1C6gY=\""
+          "Value": "\"J7zqqrI2mHGCGBGeGDMThis3X9PwFBwPc/zAVb2f8IM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
+          "Value": "Tue, 29 Apr 2025 17:16:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22619,13 +22458,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pCjniKwOiDLYtc1Ffn+GN5KbUeThDLw0aVtxrtLiijQ=\""
+          "Value": "W/\"oW8KRaNW0S5Gj0OsCl/rcHPwKWcEM7tfWhLovIb22bc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oxurmvtuno"
+          "Value": "1cv0xcytjz"
         },
         {
           "Name": "label",
@@ -22633,13 +22472,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-pCjniKwOiDLYtc1Ffn+GN5KbUeThDLw0aVtxrtLiijQ="
+          "Value": "sha256-oW8KRaNW0S5Gj0OsCl/rcHPwKWcEM7tfWhLovIb22bc="
         }
       ]
     },
     {
-      "Route": "_framework/Sales-funnel.oxurmvtuno.wasm.gz",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\tkgi3m8vdz-oxurmvtuno.gz",
+      "Route": "_framework/Sales-funnel.1cv0xcytjz.wasm.gz",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\tkgi3m8vdz-1cv0xcytjz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22648,7 +22487,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "64032"
+          "Value": "66689"
         },
         {
           "Name": "Content-Type",
@@ -22656,11 +22495,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bAE0zphO9x+RfM+qIb+nFFhf4tyLJtGDFlZpJx1C6gY=\""
+          "Value": "\"J7zqqrI2mHGCGBGeGDMThis3X9PwFBwPc/zAVb2f8IM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
+          "Value": "Tue, 29 Apr 2025 17:16:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22678,7 +22517,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "oxurmvtuno"
+          "Value": "1cv0xcytjz"
         },
         {
           "Name": "label",
@@ -22686,7 +22525,168 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bAE0zphO9x+RfM+qIb+nFFhf4tyLJtGDFlZpJx1C6gY="
+          "Value": "sha256-J7zqqrI2mHGCGBGeGDMThis3X9PwFBwPc/zAVb2f8IM="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Sales-funnel.61gq1h2obv.pdb",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\bin\\Debug\\net9.0\\wwwroot\\_framework\\Sales-funnel.pdb",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "150316"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qngMoQc74ORIG1NBTFJNXieawh2GdFvY8HHdNXfXVN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 17:16:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61gq1h2obv"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Sales-funnel.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qngMoQc74ORIG1NBTFJNXieawh2GdFvY8HHdNXfXVN4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Sales-funnel.61gq1h2obv.pdb",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\9n5kg6xhc8-61gq1h2obv.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000007800799"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128191"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K9jxJJq4g4KtKS0oIRg3nCfizcO7suT8qO0AZBmaKPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 17:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"qngMoQc74ORIG1NBTFJNXieawh2GdFvY8HHdNXfXVN4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61gq1h2obv"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Sales-funnel.pdb"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qngMoQc74ORIG1NBTFJNXieawh2GdFvY8HHdNXfXVN4="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/Sales-funnel.61gq1h2obv.pdb.gz",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\9n5kg6xhc8-61gq1h2obv.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "128191"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K9jxJJq4g4KtKS0oIRg3nCfizcO7suT8qO0AZBmaKPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 17:16:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61gq1h2obv"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/Sales-funnel.pdb.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K9jxJJq4g4KtKS0oIRg3nCfizcO7suT8qO0AZBmaKPI="
         }
       ]
     },
@@ -22701,7 +22701,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "146364"
+          "Value": "150316"
         },
         {
           "Name": "Content-Type",
@@ -22709,11 +22709,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Cut32E4umpoMHmRMcBqhrty2GiOWR7P/niJ6p2nNL/Q=\""
+          "Value": "\"qngMoQc74ORIG1NBTFJNXieawh2GdFvY8HHdNXfXVN4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
+          "Value": "Tue, 29 Apr 2025 17:16:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22723,18 +22723,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Cut32E4umpoMHmRMcBqhrty2GiOWR7P/niJ6p2nNL/Q="
+          "Value": "sha256-qngMoQc74ORIG1NBTFJNXieawh2GdFvY8HHdNXfXVN4="
         }
       ]
     },
     {
       "Route": "_framework/Sales-funnel.pdb",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\9n5kg6xhc8-mtyvpc4mvn.gz",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\9n5kg6xhc8-61gq1h2obv.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000008046088"
+          "Quality": "0.000007800799"
         }
       ],
       "ResponseHeaders": [
@@ -22744,15 +22744,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "124283"
+          "Value": "128191"
         },
         {
           "Name": "ETag",
-          "Value": "\"XUr7tcHKVl4VcsB3B+67QFl8hkNQQIm8eIQTXa4BKS4=\""
+          "Value": "\"K9jxJJq4g4KtKS0oIRg3nCfizcO7suT8qO0AZBmaKPI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
+          "Value": "Tue, 29 Apr 2025 17:16:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22772,19 +22772,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Cut32E4umpoMHmRMcBqhrty2GiOWR7P/niJ6p2nNL/Q=\""
+          "Value": "W/\"qngMoQc74ORIG1NBTFJNXieawh2GdFvY8HHdNXfXVN4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Cut32E4umpoMHmRMcBqhrty2GiOWR7P/niJ6p2nNL/Q="
+          "Value": "sha256-qngMoQc74ORIG1NBTFJNXieawh2GdFvY8HHdNXfXVN4="
         }
       ]
     },
     {
       "Route": "_framework/Sales-funnel.pdb.gz",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\9n5kg6xhc8-mtyvpc4mvn.gz",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\9n5kg6xhc8-61gq1h2obv.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22793,7 +22793,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "124283"
+          "Value": "128191"
         },
         {
           "Name": "Content-Type",
@@ -22801,11 +22801,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XUr7tcHKVl4VcsB3B+67QFl8hkNQQIm8eIQTXa4BKS4=\""
+          "Value": "\"K9jxJJq4g4KtKS0oIRg3nCfizcO7suT8qO0AZBmaKPI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
+          "Value": "Tue, 29 Apr 2025 17:16:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22823,7 +22823,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XUr7tcHKVl4VcsB3B+67QFl8hkNQQIm8eIQTXa4BKS4="
+          "Value": "sha256-K9jxJJq4g4KtKS0oIRg3nCfizcO7suT8qO0AZBmaKPI="
         }
       ]
     },
@@ -22838,7 +22838,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "319765"
+          "Value": "347413"
         },
         {
           "Name": "Content-Type",
@@ -22846,11 +22846,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"pCjniKwOiDLYtc1Ffn+GN5KbUeThDLw0aVtxrtLiijQ=\""
+          "Value": "\"oW8KRaNW0S5Gj0OsCl/rcHPwKWcEM7tfWhLovIb22bc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
+          "Value": "Tue, 29 Apr 2025 17:16:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22860,18 +22860,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pCjniKwOiDLYtc1Ffn+GN5KbUeThDLw0aVtxrtLiijQ="
+          "Value": "sha256-oW8KRaNW0S5Gj0OsCl/rcHPwKWcEM7tfWhLovIb22bc="
         }
       ]
     },
     {
       "Route": "_framework/Sales-funnel.wasm",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\tkgi3m8vdz-oxurmvtuno.gz",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\tkgi3m8vdz-1cv0xcytjz.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000015616948"
+          "Quality": "0.000014994752"
         }
       ],
       "ResponseHeaders": [
@@ -22881,15 +22881,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "64032"
+          "Value": "66689"
         },
         {
           "Name": "ETag",
-          "Value": "\"bAE0zphO9x+RfM+qIb+nFFhf4tyLJtGDFlZpJx1C6gY=\""
+          "Value": "\"J7zqqrI2mHGCGBGeGDMThis3X9PwFBwPc/zAVb2f8IM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
+          "Value": "Tue, 29 Apr 2025 17:16:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22909,19 +22909,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"pCjniKwOiDLYtc1Ffn+GN5KbUeThDLw0aVtxrtLiijQ=\""
+          "Value": "W/\"oW8KRaNW0S5Gj0OsCl/rcHPwKWcEM7tfWhLovIb22bc=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-pCjniKwOiDLYtc1Ffn+GN5KbUeThDLw0aVtxrtLiijQ="
+          "Value": "sha256-oW8KRaNW0S5Gj0OsCl/rcHPwKWcEM7tfWhLovIb22bc="
         }
       ]
     },
     {
       "Route": "_framework/Sales-funnel.wasm.gz",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\tkgi3m8vdz-oxurmvtuno.gz",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\tkgi3m8vdz-1cv0xcytjz.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22930,7 +22930,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "64032"
+          "Value": "66689"
         },
         {
           "Name": "Content-Type",
@@ -22938,11 +22938,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bAE0zphO9x+RfM+qIb+nFFhf4tyLJtGDFlZpJx1C6gY=\""
+          "Value": "\"J7zqqrI2mHGCGBGeGDMThis3X9PwFBwPc/zAVb2f8IM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:15:56 GMT"
+          "Value": "Tue, 29 Apr 2025 17:16:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22960,7 +22960,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bAE0zphO9x+RfM+qIb+nFFhf4tyLJtGDFlZpJx1C6gY="
+          "Value": "sha256-J7zqqrI2mHGCGBGeGDMThis3X9PwFBwPc/zAVb2f8IM="
         }
       ]
     },
@@ -71837,13 +71837,13 @@
       ]
     },
     {
-      "Route": "css/output.7hxvfl8wip.css",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\m7ij9oe1hp-7hxvfl8wip.gz",
+      "Route": "css/output.css",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\m7ij9oe1hp-f1cj6wgoec.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000088425148"
+          "Quality": "0.000082128778"
         }
       ],
       "ResponseHeaders": [
@@ -71853,19 +71853,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11308"
+          "Value": "12175"
         },
         {
           "Name": "ETag",
-          "Value": "\"n8hy62KvED0QqTa55YPC+TdT0mVq/ByyuzEL3TI3cgk=\""
+          "Value": "\"4n84Un+7NmSEY5A0R3JA0pajkillWh5HNsKwku00F9k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:14:10 GMT"
+          "Value": "Tue, 29 Apr 2025 16:59:36 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -71881,26 +71881,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Ox6NQ8KZt79dcL1F4I00SPrX1OMkNZuej2LD/8MwJgY=\""
+          "Value": "W/\"swkhpb4Fl8M/SJaXJOZrRrHgH0aW8tgOIgBJQZ5VRdg=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "7hxvfl8wip"
-        },
-        {
-          "Name": "label",
-          "Value": "css/output.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-Ox6NQ8KZt79dcL1F4I00SPrX1OMkNZuej2LD/8MwJgY="
+          "Value": "sha256-swkhpb4Fl8M/SJaXJOZrRrHgH0aW8tgOIgBJQZ5VRdg="
         }
       ]
     },
     {
-      "Route": "css/output.7hxvfl8wip.css",
+      "Route": "css/output.css",
       "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\wwwroot\\css\\output.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -71910,7 +71902,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "85351"
+          "Value": "95337"
         },
         {
           "Name": "Content-Type",
@@ -71918,11 +71910,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ox6NQ8KZt79dcL1F4I00SPrX1OMkNZuej2LD/8MwJgY=\""
+          "Value": "\"swkhpb4Fl8M/SJaXJOZrRrHgH0aW8tgOIgBJQZ5VRdg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:14:10 GMT"
+          "Value": "Tue, 29 Apr 2025 16:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-swkhpb4Fl8M/SJaXJOZrRrHgH0aW8tgOIgBJQZ5VRdg="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.css.gz",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\m7ij9oe1hp-f1cj6wgoec.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12175"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4n84Un+7NmSEY5A0R3JA0pajkillWh5HNsKwku00F9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 16:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4n84Un+7NmSEY5A0R3JA0pajkillWh5HNsKwku00F9k="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.f1cj6wgoec.css",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\m7ij9oe1hp-f1cj6wgoec.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000082128778"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12175"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4n84Un+7NmSEY5A0R3JA0pajkillWh5HNsKwku00F9k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 16:59:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"swkhpb4Fl8M/SJaXJOZrRrHgH0aW8tgOIgBJQZ5VRdg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "f1cj6wgoec"
+        },
+        {
+          "Name": "label",
+          "Value": "css/output.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-swkhpb4Fl8M/SJaXJOZrRrHgH0aW8tgOIgBJQZ5VRdg="
+        }
+      ]
+    },
+    {
+      "Route": "css/output.f1cj6wgoec.css",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\wwwroot\\css\\output.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "95337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"swkhpb4Fl8M/SJaXJOZrRrHgH0aW8tgOIgBJQZ5VRdg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 29 Apr 2025 16:59:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71932,7 +72069,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7hxvfl8wip"
+          "Value": "f1cj6wgoec"
         },
         {
           "Name": "label",
@@ -71940,13 +72077,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ox6NQ8KZt79dcL1F4I00SPrX1OMkNZuej2LD/8MwJgY="
+          "Value": "sha256-swkhpb4Fl8M/SJaXJOZrRrHgH0aW8tgOIgBJQZ5VRdg="
         }
       ]
     },
     {
-      "Route": "css/output.7hxvfl8wip.css.gz",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\m7ij9oe1hp-7hxvfl8wip.gz",
+      "Route": "css/output.f1cj6wgoec.css.gz",
+      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\m7ij9oe1hp-f1cj6wgoec.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -71955,7 +72092,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11308"
+          "Value": "12175"
         },
         {
           "Name": "Content-Type",
@@ -71963,11 +72100,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n8hy62KvED0QqTa55YPC+TdT0mVq/ByyuzEL3TI3cgk=\""
+          "Value": "\"4n84Un+7NmSEY5A0R3JA0pajkillWh5HNsKwku00F9k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:14:10 GMT"
+          "Value": "Tue, 29 Apr 2025 16:59:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -71985,7 +72122,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "7hxvfl8wip"
+          "Value": "f1cj6wgoec"
         },
         {
           "Name": "label",
@@ -71993,144 +72130,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-n8hy62KvED0QqTa55YPC+TdT0mVq/ByyuzEL3TI3cgk="
-        }
-      ]
-    },
-    {
-      "Route": "css/output.css",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\m7ij9oe1hp-7hxvfl8wip.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000088425148"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11308"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n8hy62KvED0QqTa55YPC+TdT0mVq/ByyuzEL3TI3cgk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:14:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"Ox6NQ8KZt79dcL1F4I00SPrX1OMkNZuej2LD/8MwJgY=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ox6NQ8KZt79dcL1F4I00SPrX1OMkNZuej2LD/8MwJgY="
-        }
-      ]
-    },
-    {
-      "Route": "css/output.css",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\wwwroot\\css\\output.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "85351"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Ox6NQ8KZt79dcL1F4I00SPrX1OMkNZuej2LD/8MwJgY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:14:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Ox6NQ8KZt79dcL1F4I00SPrX1OMkNZuej2LD/8MwJgY="
-        }
-      ]
-    },
-    {
-      "Route": "css/output.css.gz",
-      "AssetFile": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\Debug\\net9.0\\compressed\\m7ij9oe1hp-7hxvfl8wip.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "11308"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"n8hy62KvED0QqTa55YPC+TdT0mVq/ByyuzEL3TI3cgk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 29 Apr 2025 15:14:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-n8hy62KvED0QqTa55YPC+TdT0mVq/ByyuzEL3TI3cgk="
+          "Value": "sha256-4n84Un+7NmSEY5A0R3JA0pajkillWh5HNsKwku00F9k="
         }
       ]
     },

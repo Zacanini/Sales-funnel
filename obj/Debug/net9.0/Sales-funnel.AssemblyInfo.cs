@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Sales-funnel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b3738b08b59053a30021fff6b2798e4e00670d4b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e56d5a2d5a82ff65c7a496b75195716ac3ea166c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sales-funnel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sales-funnel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

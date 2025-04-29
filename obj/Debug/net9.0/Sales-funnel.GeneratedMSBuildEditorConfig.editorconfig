@@ -136,6 +136,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFPZmVydGFcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/PaginaOferta/Vantagens.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFPZmVydGFcVmFudGFnZW5zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ui/Alert.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1aVxBbGVydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -183,7 +187,3 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-dscr1gtau9
-
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-yzupe1c8gn

@@ -7,7 +7,7 @@
 <SEO 
     Title="PWA Master: E-book Completo sobre Progressive Web Apps" 
     Description="Aprenda a desenvolver PWAs de forma completa, com exemplos práticos, técnicas avançadas e estratégias para criar aplicações web que funcionam offline."
-    ImageUrl="https://via.placeholder.com/1200x630"
+    ImageUrl="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
     Keywords="@(new[] { "PWA", "Progressive Web Apps", "E-book", "Desenvolvimento Web", "Service Workers", "Offline", "Frontend" })"
 />
 
@@ -16,55 +16,11 @@
         
         <div class="max-w-5xl mx-auto mt-8">
             <ProductDetails 
-                ImageUrl="https://via.placeholder.com/400x500"
-                PurchaseButtonText="Comprar por R$ 97,00"
-                SecondaryButtonText="Ver detalhes"
                 OnPurchaseClick="@HandlePurchase"
                 OnSecondaryClick="@(() => ScrollToSection("conteudo"))"
             />
             
-            <div class="mt-16" id="vantagens">
-                <h2 class="text-2xl font-bold mb-6 text-center">Por que o PWA Master vai acelerar seu desenvolvimento?</h2>
-                
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="text-center">
-                        <div class="bg-blue-100 text-blue-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <path d="M13 2L3 14h9l-1 8 10-16h-9l1-4z"></path>
-                            </svg>
-                        </div>
-                        <h3 class="font-bold mb-2">Aprenda Mais Rápido</h3>
-                        <p class="text-gray-600">
-                            Conteúdo estruturado para acelerar seu aprendizado, com exemplos práticos e código funcional.
-                        </p>
-                    </div>
-                    
-                    <div class="text-center">
-                        <div class="bg-green-100 text-green-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
-                            </svg>
-                        </div>
-                        <h3 class="font-bold mb-2">Evite Erros Comuns</h3>
-                        <p class="text-gray-600">
-                            Aprenda com exemplos de problemas reais e como evitar armadilhas no desenvolvimento de PWAs.
-                        </p>
-                    </div>
-                    
-                    <div class="text-center">
-                        <div class="bg-purple-100 text-purple-600 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
-                            </svg>
-                        </div>
-                        <h3 class="font-bold mb-2">Código Reutilizável</h3>
-                        <p class="text-gray-600">
-                            Obtenha acesso a snippets e componentes prontos para usar em seus projetos profissionais.
-                        </p>
-                    </div>
-                </div>
-            </div>
+            <Vantagens />
             
             <div class="mt-16" id="conteudo">
                 <ContentTable />
@@ -75,7 +31,6 @@
                     <h2 class="text-2xl font-bold mb-2">Opções de compra</h2>
                     <p class="text-gray-600">Escolha a opção que melhor atende às suas necessidades</p>
                 </div>
-                
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
                     <PricingTable 
                         Title="PWA Master - E-book Básico" 
@@ -90,7 +45,6 @@
                             "30 dias de garantia"
                         })"
                     />
-                    
                     <PricingTable 
                         Title="PWA Master Premium" 
                         Price="197.00m"
@@ -151,7 +105,7 @@
                             <p class="opacity-90">Adquira agora o e-book PWA Master e transforme suas habilidades de desenvolvimento web.</p>
                         </div>
                         <div>
-                            <Button Variant="primary" Size="lg" Class="bg-white text-blue-600 hover:bg-blue-50" OnClick="HandlePurchase">
+                            <Button Variant="primary" Size="lg" OnClick="HandlePurchase">
                                 Comprar Agora
                             </Button>
                         </div>
