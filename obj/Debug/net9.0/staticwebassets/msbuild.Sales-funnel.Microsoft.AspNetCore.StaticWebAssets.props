@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f1cj6wgoec</Fingerprint>
-      <Integrity>swkhpb4Fl8M/SJaXJOZrRrHgH0aW8tgOIgBJQZ5VRdg=</Integrity>
+      <Fingerprint>ly0tyuag9d</Fingerprint>
+      <Integrity>4xtdKGR301rbM/m36koY4U3HmK9AIToudQc/tumWpwA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\output.css'))</OriginalItemSpec>
@@ -912,8 +912,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ApplicationBundle</AssetTraitValue>
-      <Fingerprint>lk42tgjy70</Fingerprint>
-      <Integrity>pbBcs5rMwh1baEx0AoV84WvQc9wcirs/B8hPjl9moJQ=</Integrity>
+      <Fingerprint>yhy5gtz5yd</Fingerprint>
+      <Integrity>Gq4wGcOIsmWV75klqlTilLecdC/tMMOhT/uCgd21f5Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Sales-funnel.styles.css'))</OriginalItemSpec>

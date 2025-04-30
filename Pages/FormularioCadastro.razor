@@ -4,10 +4,7 @@
 @using Sales_funnel.Components.UI
 @inject NavigationManager NavigationManager
 
-<SEO 
-    Title="Cadastro - PWA Master"
-    Description="Cadastre-se para receber conteúdos exclusivos sobre PWAs e tenha acesso ao e-book PWA Master." 
-/>
+
 
 <div class="bg-gradient-to-b from-blue-50 to-white py-16 min-h-screen">
     <div class="container mx-auto px-4">
@@ -20,7 +17,8 @@
                         <FormHeader Title="Comece sua jornada PWA agora"
                             Description="Junte-se a mais de 500 desenvolvedores que já estão elevando suas carreiras. Faltam apenas 50 segundos para você ter acesso ao conteúdo exclusivo." />
                         <FormFields OnFormSubmit="HandleFormSubmit" />
-                        <PrivacyTerms />
+
+                        //<PrivacyTerms />
                     }
                     else
                     {
@@ -36,15 +34,12 @@
         </div>
     </div>
 </div>
-
-
-
 @if (!isFormSubmitted)
 {
     <section class="py-16 bg-white">
         <div class="container mx-auto px-4">
             <Exclusivo />
-            <ProvaSocial />
+            @* <ProvaSocial/> *@
         </div>
     </section>
 }
@@ -55,8 +50,6 @@
 
     private void HandleFormSubmit(Sales_funnel.Components.FormularioCadastro.FormFields.FormData data)
     {
-        // Em um ambiente real, aqui seria feito o processamento do formulário
-        // como salvar em um banco de dados ou enviar para uma API
 
         isFormSubmitted = true;
         submittedEmail = data.Email;
