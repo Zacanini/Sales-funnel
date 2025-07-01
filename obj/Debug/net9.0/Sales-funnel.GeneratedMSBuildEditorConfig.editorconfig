@@ -13,169 +13,169 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = Sales-funnel
 build_property.RootNamespace = Sales-funnel
-build_property.ProjectDir = C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\
+build_property.ProjectDir = C:\Users\Fernando Zuchi\Desktop\Sales-funnel\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel
+build_property.MSBuildProjectDirectory = C:\Users\Fernando Zuchi\Desktop\Sales-funnel
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/App.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ConteudoEngajamento/ConteudoBonus.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ConteudoEngajamento/ConteudoBonus.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250ZXVkb0VuZ2FqYW1lbnRvXENvbnRldWRvQm9udXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ConteudoEngajamento/ConteudoCTA.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ConteudoEngajamento/ConteudoCTA.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250ZXVkb0VuZ2FqYW1lbnRvXENvbnRldWRvQ1RBLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ConteudoEngajamento/ConteudoDestaque.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ConteudoEngajamento/ConteudoDestaque.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250ZXVkb0VuZ2FqYW1lbnRvXENvbnRldWRvRGVzdGFxdWUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ConteudoEngajamento/ConteudoDivisor.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ConteudoEngajamento/ConteudoDivisor.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250ZXVkb0VuZ2FqYW1lbnRvXENvbnRldWRvRGl2aXNvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ConteudoEngajamento/ConteudoGratuito.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ConteudoEngajamento/ConteudoGratuito.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250ZXVkb0VuZ2FqYW1lbnRvXENvbnRldWRvR3JhdHVpdG8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ConteudoEngajamento/ConteudoInicial.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ConteudoEngajamento/ConteudoInicial.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250ZXVkb0VuZ2FqYW1lbnRvXENvbnRldWRvSW5pY2lhbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ConteudoEngajamento/ConteudoLista.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ConteudoEngajamento/ConteudoLista.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250ZXVkb0VuZ2FqYW1lbnRvXENvbnRldWRvTGlzdGEucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ConteudoEngajamento/ConteudoProgressBar.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ConteudoEngajamento/ConteudoProgressBar.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDb250ZXVkb0VuZ2FqYW1lbnRvXENvbnRldWRvUHJvZ3Jlc3NCYXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/FormularioCadastro/Beneficios.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/FormularioCadastro/Beneficios.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtdWxhcmlvQ2FkYXN0cm9cQmVuZWZpY2lvcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/FormularioCadastro/Exclusivo.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/FormularioCadastro/Exclusivo.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtdWxhcmlvQ2FkYXN0cm9cRXhjbHVzaXZvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/FormularioCadastro/FormFields.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/FormularioCadastro/FormFields.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtdWxhcmlvQ2FkYXN0cm9cRm9ybUZpZWxkcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/FormularioCadastro/FormHeader.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/FormularioCadastro/FormHeader.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtdWxhcmlvQ2FkYXN0cm9cRm9ybUhlYWRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/FormularioCadastro/PrivacyTerms.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/FormularioCadastro/PrivacyTerms.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtdWxhcmlvQ2FkYXN0cm9cUHJpdmFjeVRlcm1zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/FormularioCadastro/ProvaSocial.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/FormularioCadastro/ProvaSocial.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtdWxhcmlvQ2FkYXN0cm9cUHJvdmFTb2NpYWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/FormularioCadastro/SuccessMessage.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/FormularioCadastro/SuccessMessage.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xGb3JtdWxhcmlvQ2FkYXN0cm9cU3VjY2Vzc01lc3NhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/global/Footer.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/global/Footer.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xnbG9iYWxcRm9vdGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/global/Header.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/global/Header.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xnbG9iYWxcSGVhZGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/LandingPage/BenefitsList.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/LandingPage/BenefitsList.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYW5kaW5nUGFnZVxCZW5lZml0c0xpc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/LandingPage/CardAction.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/LandingPage/CardAction.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYW5kaW5nUGFnZVxDYXJkQWN0aW9uLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/LandingPage/Diferenciais.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/LandingPage/Diferenciais.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYW5kaW5nUGFnZVxEaWZlcmVuY2lhaXMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/LandingPage/Hero.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/LandingPage/Hero.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYW5kaW5nUGFnZVxIZXJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/LandingPage/PreviewContent.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/LandingPage/PreviewContent.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYW5kaW5nUGFnZVxQcmV2aWV3Q29udGVudC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/PaginaOferta/ContentTable.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/PaginaOferta/ContentTable.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFPZmVydGFcQ29udGVudFRhYmxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/PaginaOferta/PricingTable.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/PaginaOferta/PricingTable.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFPZmVydGFcUHJpY2luZ1RhYmxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/PaginaOferta/ProductDetails.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/PaginaOferta/ProductDetails.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFPZmVydGFcUHJvZHVjdERldGFpbHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/PaginaOferta/Vantagens.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/PaginaOferta/Vantagens.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdpbmFPZmVydGFcVmFudGFnZW5zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ui/Alert.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ui/Alert.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1aVxBbGVydC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ui/Badge.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ui/Badge.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1aVxCYWRnZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ui/Button.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ui/Button.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1aVxCdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ui/Card.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ui/Card.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1aVxDYXJkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ui/InputField.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ui/InputField.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1aVxJbnB1dEZpZWxkLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Components/ui/Testimonial.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Components/ui/Testimonial.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1x1aVxUZXN0aW1vbmlhbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/ConteudoEngajamento.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Pages/ConteudoEngajamento.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29udGV1ZG9FbmdhamFtZW50by5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/FormularioCadastro.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Pages/FormularioCadastro.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybXVsYXJpb0NhZGFzdHJvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/LandingPage.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Pages/LandingPage.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZGluZ1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Pages/PaginaOferta.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Pages/PaginaOferta.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnaW5hT2ZlcnRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/_Imports.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ledaz/OneDrive/Área de Trabalho/4semestre/z-EXERCICIOS/PWA/Sales-funnel/Layout/MainLayout.razor]
+[C:/Users/Fernando Zuchi/Desktop/Sales-funnel/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-dscr1gtau9

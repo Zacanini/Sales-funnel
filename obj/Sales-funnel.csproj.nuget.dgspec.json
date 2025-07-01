@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\Sales-funnel.csproj": {}
+    "C:\\Users\\Fernando Zuchi\\Desktop\\Sales-funnel\\Sales-funnel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\Sales-funnel.csproj": {
+    "C:\\Users\\Fernando Zuchi\\Desktop\\Sales-funnel\\Sales-funnel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\Sales-funnel.csproj",
+        "projectUniqueName": "C:\\Users\\Fernando Zuchi\\Desktop\\Sales-funnel\\Sales-funnel.csproj",
         "projectName": "Sales-funnel",
-        "projectPath": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\Sales-funnel.csproj",
-        "packagesPath": "C:\\Users\\ledaz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ledaz\\OneDrive\\Área de Trabalho\\4semestre\\z-EXERCICIOS\\PWA\\Sales-funnel\\obj\\",
+        "projectPath": "C:\\Users\\Fernando Zuchi\\Desktop\\Sales-funnel\\Sales-funnel.csproj",
+        "packagesPath": "C:\\Users\\Fernando Zuchi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fernando Zuchi\\Desktop\\Sales-funnel\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ledaz\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Fernando Zuchi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -56,13 +62,13 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.3, )",
+              "version": "[9.0.0, )",
               "autoReferenced": true
             },
             "Microsoft.NET.Sdk.WebAssembly.Pack": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.3, )",
+              "version": "[9.0.0, )",
               "autoReferenced": true
             }
           },
@@ -80,7 +86,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[9.0.3, 9.0.3]"
+              "version": "[9.0.0, 9.0.0]"
             }
           ],
           "frameworkReferences": {
@@ -88,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

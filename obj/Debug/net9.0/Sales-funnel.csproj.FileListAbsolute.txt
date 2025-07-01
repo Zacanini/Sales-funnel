@@ -1085,3 +1085,10 @@ C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funne
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\tkgi3m8vdz-9hsvebt3as.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\9n5kg6xhc8-p9fpknzz0s.gz
 C:\Users\ledaz\OneDrive\Área de Trabalho\4semestre\z-EXERCICIOS\PWA\Sales-funnel\obj\Debug\net9.0\compressed\abwyq72lfm-c9w90aixm7.gz
+C:\Users\Fernando Zuchi\Desktop\Sales-funnel\obj\Debug\net9.0\Sales-funnel.csproj.AssemblyReference.cache
+C:\Users\Fernando Zuchi\Desktop\Sales-funnel\obj\Debug\net9.0\Sales-funnel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fernando Zuchi\Desktop\Sales-funnel\obj\Debug\net9.0\Sales-funnel.AssemblyInfoInputs.cache
+C:\Users\Fernando Zuchi\Desktop\Sales-funnel\obj\Debug\net9.0\Sales-funnel.AssemblyInfo.cs
+C:\Users\Fernando Zuchi\Desktop\Sales-funnel\obj\Debug\net9.0\Sales-funnel.csproj.CoreCompileInputs.cache
+C:\Users\Fernando Zuchi\Desktop\Sales-funnel\obj\Debug\net9.0\Sales-funnel.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Fernando Zuchi\Desktop\Sales-funnel\obj\Debug\net9.0\Sales-funnel.sourcelink.json
